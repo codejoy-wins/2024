@@ -1,0 +1,48 @@
+<!-- epic fail -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="static/css/pokedex.css">
+    <link rel="shortcut icon" type="image/png" href="static/img/mj3.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a target="_blank" href="onedate.html">
+        <h1>Mewthree</h1>
+    </a>
+    <p id="instructions">
+        Choose any 6 pokemon and get an a.i. summary of your team by Mewthree!
+    </p>
+    <div class="formal">
+        <input type="text" id="pokemonInput" placeholder="Enter Pokémon Name">
+        <button onclick="getPokemon()">Find That Pokémon!</button>
+    </div>
+
+    <div id="pokemonInfo" class="results">
+        Gather your team here.
+    </div>
+
+    <div id="teamDisplay" class="team">
+    </div>
+    <div id="brick" class="formal">
+        <button id="mew" onclick="simp()"><div id="mewtwo">Challenge Mewthree to a fight!</div></button>
+    </div>
+    <div id="magica">
+        <p>GPT Response will go here.  </p>
+    </div>
+    <div id="devlog"></div>
+    <div id="mewthree">
+        <img class="picmain" src="static/img/mewthree.png" alt="mewthree">
+    </div>
+    <div id="information" class="formal">
+
+    </div>
+    <div class="footer">
+        &copy; Jann Software 2024
+    </div>
+    <script src="pokedex.js"></script>
+</body>
+</html>
