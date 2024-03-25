@@ -11,8 +11,10 @@
 }
 
 html{
-    background-image: url(../img/lion.png);
-    background-size: contain;
+    /* background-image: url(../img/lion.png); */
+    background-image: url(../img/Warilla.jpg);
+    background-size:42%;
+
 }
 html, body{
     margin: 0;
@@ -71,4 +73,9 @@ a:hover{
     max-width: 100%;
     width: 600px;
     text-align: center;
+}
+@media only screen and (max-device-width: 1117px) {
+html{
+    background-size: auto;
+}
 }
