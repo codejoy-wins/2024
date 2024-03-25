@@ -948,9 +948,9 @@ let womanobj = [
         "picture": "oliviar.jpg"
     },
     {
-        "song": "positions",
+        "song": "notears",
         "artist":"Ariana Grande",
-        "fullsong": "Positions",
+        "fullsong": "No Tears Left to Cry",
         "picture": "cute.jpg"
     },
     {

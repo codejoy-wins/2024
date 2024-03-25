@@ -250,10 +250,11 @@ let manobj = [
         "fullsong": "Smells Like Teen Spirit Cover",
         "picture": "",
     },
+    
     {
-        "song": "positions",
+        "song": "notears",
         "artist":"Ariana Grande",
-        "fullsong": "Positions",
+        "fullsong": "No Tears Left to Cry",
         "picture": "cute.jpg"
     },
     {
@@ -363,6 +364,12 @@ let manobj = [
         "artist": "Sublime",
         "fullsong": "Doin Time",
         "picture": "sublimedog.jpg",
+    },
+    {
+        "song": "positions",
+        "artist":"Ariana Grande",
+        "fullsong": "Positions",
+        "picture": "cute.jpg"
     },
     {
         "song":"TimeBomb",
