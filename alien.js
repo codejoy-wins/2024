@@ -1581,8 +1581,8 @@ const newwoman = ()=>{
     }
 
     document.getElementById("info").innerHTML=`
-    <p><span class="advanced">${manobj[k].fullsong}</span></p>
-    <p><span class="advanced">${manobj[k].artist}</span></p>
+    <p><span class="advanced">${womanobj[k].fullsong}</span></p>
+    <p><span class="advanced">${womanobj[k].artist}</span></p>
 
     `;
     
