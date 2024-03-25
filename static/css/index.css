@@ -2460,3 +2460,6 @@ ul{
 .d{
     color: wheat;
 }
+.pic{
+    max-width: 100%;
+}
