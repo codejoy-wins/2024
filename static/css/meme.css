@@ -32,7 +32,9 @@ html{
     color: gold;
 
     text-align: center;
-    background-image: url("../img/eli10.jpg");
+    /* background-image: url("../img/eli10.jpg"); */
+    background-image: url("../img/Warilla.jpg");
+
     background-size: contain;
 }
 
