@@ -1,0 +1,37 @@
+body{
+    background-image: url("../img/Emerald.png");
+    max-width: 100%;
+}
+h1{
+    max-width: 100%;
+    font-size: 2vw;
+}
+.really{
+    float: right;
+    color: white;
+}
+.really a{
+    color: plum;
+}
+.really a:hover{
+    color: azure;
+}
+p{
+    color: green;
+    background-color: rgba(0, 0, 0, 0.73);
+    font-size: 3vw;
+}
+.real{
+    color: black;
+    background-color: rgba(240, 255, 255, 0.749);
+    display: inline;
+    border-radius: 1vw;
+    padding: .7vw;
+}
+p{
+    max-width: 100%;
+}
+*{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}

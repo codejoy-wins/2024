@@ -1,0 +1,125 @@
+*{
+    font-family: 'Spectral', serif;
+}
+h1{
+    display: inline-block;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#heading{
+    text-align: center;
+}
+#rapper3{
+    margin: 0 auto;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1.0vw;
+    /* background-image: url(../img/aurora.jpg); */
+    background-image: url(../img/craigteroh.png);
+    background-color: aliceblue;
+
+    background-size: contain;
+}
+#max{
+    max-width: 100%;
+    overflow: auto;
+    background-color: rgba(14, 168, 207, 0.756);
+    color: whitesmoke;
+    height: 1300px;
+    margin-top: 4vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    font-size: larger;
+}
+
+
+.option{
+    display: inline-block;
+    padding: 1vw;
+}
+#nav{
+    background-color: rgba(30, 22, 104, 0.801);
+    width: 100%;
+    text-align: center;
+}
+#nav:hover{
+    cursor: cell;
+}
+#nav2{
+    background-color: rgb(43, 226, 156, 0.363);
+    width: 100%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    cursor: cell;
+}
+.current{
+    font-weight: bold;
+    color: silver;
+}
+h1 a{
+    color: purple;
+}
+
+.inline{
+    display: inline-block;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+.current2{
+    color: rgba(128, 230, 243, 0.536);
+    padding: 1vw;
+}
+
+.inline a:hover{
+    color: rgb(33, 185, 33);
+}
+.inline a{
+    color: gray;
+}
+.chapter{
+    color: aquamarine;
+    animation: aurora 3s infinite;
+}
+.title{
+    color: aquamarine;
+    font-size: x-large;
+}
+
+@keyframes aurora{
+    0%{
+        color: blue;
+    }
+    30%{
+        color: turquoise;
+    }
+    60%{
+        color: rgb(228, 95, 117);
+    }
+    90%{
+        color: aquamarine;
+    }
+}
+.expo{
+    color: aqua;
+    font-style: italic;
+}
+.chat{
+    background-color: azure;
+    padding: 3vw;
+}
+.magical{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.501);
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}

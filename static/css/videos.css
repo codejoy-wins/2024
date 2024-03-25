@@ -1,0 +1,196 @@
+*{
+    font-family: 'Spectral', serif;
+    text-align: center;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    text-align: center;
+    /* background-image: url("../img/haloinfinite.jpg"); */
+    background-image: url("../img/RainbowAngel.png");
+    background-size: contain;
+    background-position: absolute;
+    background-position-y:117px
+}
+#article{
+    color: rgba(19, 24, 24, 0.897);
+    padding: 1vw;
+    background-image: url("../img/RainbowAngel.png");
+    background-size: contain;
+    text-align: center;
+}
+
+
+
+#rapper7{
+    margin: 0 auto;
+    padding-top: 2px;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+    background-color: black;
+
+}
+.vid{
+    max-width: 100%;
+    width: 600px;
+    text-align: center;
+}
+#heading{
+    text-align: center;
+}
+#collage{
+    height: auto;
+    width: 100%;
+}
+
+#reviews h2{
+    text-align: center;
+}
+#rapper{
+    margin: 0 auto;
+    padding-top: 2px;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    background-image: url("../img/hawk23.jpg");
+    background-size: contain;
+    background-position: center;
+    height: 50vw;
+    background-repeat: no-repeat;
+    color: aqua;
+    text-align: center;
+}
+.option{
+    display: inline-block;
+    padding: 1vw;
+    color: whitesmoke;
+}
+#nav{
+    /* background-color: rgba(34, 46, 46, 0.767); */
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(183, 183, 196);
+    cursor: cell;
+}
+a:hover{
+    color: gold
+}
+#nav a:hover{
+    color: rgb(0, 204, 255);
+    font-weight: bold;
+}
+.current{
+    font-weight: bold;
+}
+#poem{
+    text-align: center;
+}
+#nav{
+    text-align: center;
+}
+.pic{
+    max-width: 100%;
+}
+.genre{
+    display: inline-block;
+    position: relative;
+    top: 13vw;
+    padding: 3ch;
+}
+.genre a{
+    color: aqua;
+}
+.genre a:hover{
+    color: forestgreen;
+    cursor: cell;
+}
+#dev a{
+    color: pink;
+}
+#dev a:hover{
+    color: rgb(20, 11, 20);
+}
+#dev{
+    height: 20vw;
+    overflow:auto;
+    margin: 90px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.i{
+    font-style: italic;
+}
+
+
+#options h3{
+    display: inline-block;
+    padding: 1vw;
+    color: rgb(231, 215, 231);
+}
+#options h3:hover{
+    color: rgb(149, 161, 161);
+    cursor: cell;
+}
+
+#picture{
+    max-width: 100%;
+}
+.pic2{
+    max-width: 100%;
+    height: 50vw;
+}
+.black{
+    color: aqua;
+    text-align: center;
+}
+.pic3{
+    height: 20vw;
+    max-width: 100%;
+}
+.video{
+    max-width: 100%;
+    width: 600px;
+    color: palegoldenrod;
+    text-align: center;
+}
+.video2{
+    max-width: 100%;
+    width: 600px;
+    color: paleturquoise;
+    text-align: center;
+}
+.video h1{
+    background-color: rgba(227, 142, 210, 0.822);
+    padding-right: 2vw;
+    padding-left: 2vw;
+
+    display: inline;
+}
+.video2 h1{
+    background-color: rgba(228, 157, 214, 0.634);
+    display: inline;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    border-radius: 1vw;
+}
+.video3{
+    max-width: 100%;
+    width: 600px;
+}
+.feature{
+    max-width: 100%;
+}
+#title{
+    color: rgba(194, 169, 152, 0.658);
+}
+p{
+    background-color: black;
+    color: wheat;
+}
