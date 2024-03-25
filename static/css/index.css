@@ -33,6 +33,9 @@ html,body .texztwhite{
 html,body .parallaxnew{
     background-color: black;
 }
+html,body .parallaxlight{
+    background-color: black;
+}
 html,body .teroh0{
     background-color: black;
 }
@@ -530,6 +533,19 @@ p a{
 
     /* background-image: url("../img/Warilla.jpg"); */
 
+    height: 100vw;
+    background-attachment: fixed;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -200px;
+    max-width: 100%;
+    padding-top: 200px;
+}
+.parallaxlight{
+    background-image: url("../img/ElamForever.png");
+    /* background-image: url("../img/thedarkness.jpg"); */
+    /* background-image: url("../img/Warilla.jpg"); */
     height: 100vw;
     background-attachment: fixed;
     background-position:  center;
@@ -1381,7 +1397,7 @@ footer{
     min-height: 210px;
     max-height: 400px;
     /* background-image: url(../img/lightcom.png); */
-    background-image: url(../img/oig2.jpeg);
+    background-image: url(../img/ElamForever.png);
     /* background-image: url(../img/automaticgun.jpg); */
 
     /* background-image: url(../img/EternalElam.png); */
@@ -2193,6 +2209,11 @@ div#tetrahedron > div.back {
     }
 
     .parallaxnew {
+        background-attachment: scroll;
+        background-size: cover;
+        margin-top: 20px;
+      }
+      .parallaxlight {
         background-attachment: scroll;
         background-size: cover;
         margin-top: 20px;

@@ -185,18 +185,13 @@ const nextTime = () =>{
 
 // let currentri = "parallaxnew";
 
-// function craig(){
-//     console.log("Mr. Teroh");
-//     let zzz = Math.floor(Math.random()*featurephotos.length);
-//     console.log(zzz);
-//     let trii = featurephotos[zzz];
+function craig(){
+    console.log("change for the good");
+    let targetofteroh = document.getElementById("teroh");
+    document.getElementById("teroh").classList.remove("parallaxnew");
+    document.getElementById("teroh").classList.add("parallaxlight");
+}
 
-//     console.log(`trii is ${trii}`);
-//     document.getElementById("teroh").classList.remove(currentri);
-//     document.getElementById("teroh").classList.add(trii);
-//     currentri = trii;
-// }
-// craig();
 
 // run craig again every 5 minutes?
 // AmorFati , iDecay, cellPHone2, sinNoMo have been removed due to not being good enough for a first impression
