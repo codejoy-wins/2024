@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
         description: "I'm learning Unreal Engine 5.3 with my new Macbook Pro M3", 
         imageUrl: "static/img/elamcloud.png",
         linkURL: "",
-        videoembed:"https://www.youtube.com/embed/mum7DEXXvFI?si=yOqy-TdTsB61-8Pp",
+        videoembed:"https://www.youtube.com/embed/IJySvOjJwqI?si=67r2SfNbG8auAmmF",
         date:"2024",
      },
         // I should also add video demos for each project, as well as a link
