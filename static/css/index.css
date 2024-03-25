@@ -2138,6 +2138,9 @@ div#tetrahedron > div.back {
         );
         padding: 2vw;
     }
+    #desktoponly{
+        display: none;
+    }
     ul.nav-links.right li{
         padding: 0;
     }
