@@ -11,7 +11,7 @@ html,body{
 }
 html{
     /* color: greenyellow; */
-    color: gold;
+    color: wheat;
 
     text-align: center;
     /* background-image: url("../img/eli10.jpg"); */
@@ -105,13 +105,13 @@ a:hover{
         color: silver;
     }
     40%{
-        color: aqua;
+        color: rgb(117, 247, 247);
     }
     60%{
         color: aquamarine;
     }
     80%{
-        color: cyan;
+        color: rgb(149, 149, 247);
     }
 }
 .dj{
@@ -127,4 +127,13 @@ a:hover{
 }
 p{
     animation: ellie 5s infinite;
+    
+
+}
+.advanced{
+    display: inline-block;
+    /* background-color: rgba(5, 34, 34, 0.883); */
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 2vw;
+    padding: .1vw;
 }

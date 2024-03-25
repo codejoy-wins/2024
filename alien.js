@@ -1520,8 +1520,8 @@ const newman= ()=>{
 
     // info
     document.getElementById("info").innerHTML=`
-    <p>${manobj[k].fullsong}</p>
-    <p>${manobj[k].artist}</p>
+    <p><span class="advanced">${manobj[k].fullsong}</span></p>
+    <p><span class="advanced">${manobj[k].artist}</span></p>
     `;
     // new playspot
 
@@ -1581,8 +1581,8 @@ const newwoman = ()=>{
     }
 
     document.getElementById("info").innerHTML=`
-    <p>${womanobj[k].fullsong}</p>
-    <p>${womanobj[k].artist}</p>
+    <p><span class="advanced">${manobj[k].fullsong}</span></p>
+    <p><span class="advanced">${manobj[k].artist}</span></p>
 
     `;
     
