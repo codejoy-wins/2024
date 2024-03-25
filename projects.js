@@ -78,6 +78,13 @@ document.addEventListener('DOMContentLoaded', function() {
          date:"2023",
 
          },
+         { title: "LuckyBid",
+         description: "A fullstack web application where you can log on to bid on items for a chance to win them in a raffle",
+         imageUrl: "static/img/luckybid.png",
+         linkURL:"",
+         videoembed:"https://www.youtube.com/embed/qEnke76S4pw?si=_y25WIuQir1co2Y6",
+         date:"2019",
+         },
          { title: "Unreal Cloudland", 
         description: "I'm learning Unreal Engine 5.3 with my new Macbook Pro M3", 
         imageUrl: "static/img/elamcloud.png",
