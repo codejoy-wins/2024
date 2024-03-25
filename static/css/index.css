@@ -2428,3 +2428,9 @@ div#tetrahedron > div.back {
 .sane a:hover{
     color: red;
 }
+ul{
+    color: white;
+}
+.d{
+    color: wheat;
+}
