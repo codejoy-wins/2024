@@ -1385,7 +1385,9 @@ footer{
     min-height: 210px;
     max-height: 400px;
     /* background-image: url(../img/lightcom.png); */
-    background-image: url(../img/vmanreal.png);
+    /* background-image: url(../img/vmanreal.png); */
+    background-image: url(../img/Aurora\ and\ Tigon.png);
+
 
     background-size: contain;
     background-repeat: no-repeat;
@@ -1426,6 +1428,12 @@ footer{
     max-height: 400px;
     opacity: 1;
     animation: wbc 11s infinite 1s;
+}
+.orange3{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 7s infinite 1s;
 }
 
 
@@ -2116,7 +2124,12 @@ div#tetrahedron > div.back {
     max-width: 100%;
     padding-top: 200px;
 }
-
+.mobileonly{
+    display: none;
+}
+.desktoponly{
+    display: inline-block;
+}
 /* 1366px */
 @media only screen and (max-device-width: 1117px) {
     ul.nav-links.right{
@@ -2138,7 +2151,10 @@ div#tetrahedron > div.back {
         );
         padding: 2vw;
     }
-    #desktoponly{
+    .mobileonly{
+        display: block;
+    }
+    .desktoponly{
         display: none;
     }
     ul.nav-links.right li{
