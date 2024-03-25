@@ -244,7 +244,7 @@ let songs = [
        `Fly`,
        `Alika and the Art of Zen Maintanence`,
        `Wrong Side of the Sea`,
-       `Jesus F***ing Christ`,
+       `JFC`,
        `Not Alone`,
        `Alone`,
        `All Alone`,
