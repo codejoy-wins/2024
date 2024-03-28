@@ -528,8 +528,8 @@ p a{
     font-style: italic;
 }
 .parallaxnew{
-    /* background-image: url("../img/ElamForever.png"); */
-    background-image: url("../img/thedarkness.jpg");
+    background-image: url("../img/ElamForever.png");
+    /* background-image: url("../img/thedarkness.jpg"); */
 
     /* background-image: url("../img/Warilla.jpg"); */
 
@@ -543,8 +543,8 @@ p a{
     padding-top: 200px;
 }
 .parallaxlight{
-    background-image: url("../img/ElamForever.png");
-    /* background-image: url("../img/thedarkness.jpg"); */
+    /* background-image: url("../img/ElamForever.png"); */
+    background-image: url("../img/thedarkness.jpg");
     /* background-image: url("../img/Warilla.jpg"); */
     height: 100vw;
     background-attachment: fixed;
