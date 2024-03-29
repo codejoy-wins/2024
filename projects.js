@@ -96,6 +96,24 @@ document.addEventListener('DOMContentLoaded', function() {
         // videos/ reviews / music  / homepage
     ];
 
+    const sideprojects = [
+        {
+            title:"React Speed",
+            description: "A React Application that lets you save and load states without reloading the webpage, and also can adjust the colors and speed of the logo",
+            linkURL:"admiring-allen-88af04.netlify.app",
+        },
+        {
+            title:"React Colors",
+            description:"A React App that lets you type in and test out any HTML5 color.",
+            linkURL:"kind-babbage-529fc.netlify.app",
+        },
+        {
+            title:"Old Portfolio",
+            description:"An old portfolio where I link to all of my apps I had built at the time, and an old resume",
+            linkURL:"modest-poitras-0f59e2.netlify.app",
+        }
+    ]
+
     const projectsList = document.getElementById('projects-list');
 
     projects.forEach(project => {
