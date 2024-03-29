@@ -1,4 +1,5 @@
 let manobj = [
+    
     {
         "song": "notears",
         "artist":"Ariana Grande",
@@ -16,6 +17,12 @@ let manobj = [
         "artist": "Elliot Smith",
         "fullsong": "Angeles",
         "picture": ""
+    },
+    {
+        "song": "Talk Show Host",
+        "artist": "Radiohead",
+        "fullsong": "Talk Show Host",
+        "picture": "patch.jpg",
     },
     {
         "song": "TTB",

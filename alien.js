@@ -7,6 +7,12 @@ let played = [];
 
 let manobj = [
     {
+        "song": "Talk Show Host",
+        "artist": "Radiohead",
+        "fullsong": "Talk Show Host",
+        "picture": "patch.jpg",
+    },
+    {
         "song": "TTB",
         "artist": "Telepathic Teddy Bear",
         "fullsong": "Where is My Mind",
