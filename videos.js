@@ -58,7 +58,7 @@ function truth(){
     </div>
     </div>
 
-    
+    <p>Contact me for Exclusive Videos</p>
     `
     document.getElementById("picture").innerHTML=`
     <img src="./static/img/dioxy.jpg" alt="spectral" class="pic2">
