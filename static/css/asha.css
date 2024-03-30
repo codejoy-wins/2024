@@ -1,0 +1,13 @@
+h1{
+    color: green;
+}
+canvas {
+    display:block;
+    position: absolute;
+    opacity: .3117;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.vid{
+    height: 100vw;
+}
