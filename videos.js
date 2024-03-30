@@ -5,14 +5,14 @@ function truth(){
     `
     document.getElementById("article").innerHTML=`
 
-    <div class="video">
+    <div class="videohidden">
     <h1>Everything You Know is Brown</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/Fzqplr2nZfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     </div>
 
-    <div class="video2">
+    <div class="videohidden">
     <h1>When You Know You're Spiderman</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/UsnSZ1DKJg8?si=LDtT7OhFiaaeQtVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -20,7 +20,7 @@ function truth(){
     </div>
 
 
-    <div class="video2">
+    <div class="videohidden">
     <h1>There's Something About the Government</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/RawvPDY19Oo?si=XKP_2p4yThNANrgj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -29,7 +29,7 @@ function truth(){
 
     
 
-    <div class="video2">
+    <div class="videohidden">
     <h1>Superjuxtaposition of Nothing and Everything</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/oBqng6eTfMc?si=znWwFvLZsiXIJEn1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -37,14 +37,14 @@ function truth(){
     </div>
 
     
-    <div class="video2">
+    <div class="videohidden">
     <h1>BelieveInYou</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/nncLReRR9Qk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     </div>
 
-    <div class="video2">
+    <div class="videohidden">
     <h1>A.I. Theory</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/ojW9U9gowOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
