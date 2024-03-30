@@ -2469,7 +2469,10 @@ div#tetrahedron > div.back {
 }
 .king a:hover{
     text-decoration: none;
-    background-color: rgb(238, 130, 238, .717);
+    /* background-color: rgb(238, 130, 238, .717); */
+    /* background-color: rgba(130, 238, 132, 0.717); */
+    background-color: rgba(130, 238, 132, 0.5);
+
     padding: none;
     color:wheat;
     margin: 0;
@@ -2490,6 +2493,7 @@ div#tetrahedron > div.back {
 }
 .innertextx p{
     color: black;
+    font-weight: 1000;
 }
 .insane{
     color: wheat;
