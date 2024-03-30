@@ -529,6 +529,8 @@ p a{
 }
 .parallaxnew{
     background-image: url("../img/ElamForever.png");
+    /* background-image: url("../img/cyberElam.jpg"); */
+
     /* background-image: url("../img/paris\ copy.png"); */
 
     /* background-image: url("../img/thedarkness.jpg"); */
@@ -661,7 +663,11 @@ p a{
 .parallaxfeature3new{
     /* background-image: url("../img/darkcom.png"); */
     /* background-image: url("../img/godplustrim.png"); */
-    background-image: url("../img/Warilla.jpg");
+    /* background-image: url("../img/Warilla.jpg"); */
+    /* background-image: url("../img/Iridielle.jpg"); */
+    background-image: url("../img/cyberElam.jpg");
+
+
 
     height: 100vw;
     background-attachment: fixed;
@@ -752,7 +758,9 @@ p a:hover{
     /* background-image: url("../img/The_One_TradingCard\ copy\ 3.jpg"); */
     /* background-image: url("../img/Avriel.jpeg"); */
     /* background-image: url("../img/angel.png"); */
-    background-image: url("../img/Iridielle.jpg");
+    /* background-image: url("../img/Iridielle.jpg"); */
+    background-image: url("../img/cyberElam.jpg");
+
     /* background-image: url("../img/paris\ copy.png"); */
 
 
@@ -777,7 +785,9 @@ p a:hover{
 }
 .parallax6{
     /* background-image: url("../img/dja.png"); */
-    background-image: url("../img/tr.jpg");
+    /* background-image: url("../img/tr.jpg"); */
+    background-image: url("../img/Iridielle.jpg");
+
 
     height: 100vw;
     background-attachment: fixed;
@@ -1125,8 +1135,10 @@ ul a{
     color: whitesmoke;
 }
 .spxi{
-    color: red;
-    background-color: rgba(245, 245, 245, 0.777);
+    color: forestgreen;
+    /* background-color: rgba(245, 245, 245, 0.777); */
+    background-color: rgba(245, 245, 245, 0.9);
+
 }
 .spxi:hover{
     color: white;
@@ -1394,6 +1406,8 @@ footer{
     /* background-image: url(../img/lightcom.png); */
     /* background-image: url(../img/vmanreal.png); */
     background-image: url(../img/Aurora\ and\ Tigon.png);
+    /* background-image: url(../img/altposter.png); */
+
 
 
     background-size: contain;
@@ -2511,4 +2525,13 @@ ul{
 }
 .pic{
     max-width: 100%;
+}
+.picsmall{
+    max-width: 100%;
+    max-height: 700px;
+}
+.picnewest{
+    max-width: 100%;
+    max-height: 1000px;
+    text-align: center;
 }
