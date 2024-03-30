@@ -166,6 +166,22 @@ a:hover{
     color: paleturquoise;
     text-align: center;
 }
+#password{
+    color: gold;
+}
+.videohidden{
+    display: none;
+    max-width: 100%;
+    width: 600px;
+    color: paleturquoise;
+    text-align: center;
+}
+.videoshown{
+    max-width: 100%;
+    width: 600px;
+    color: paleturquoise;
+    text-align: center;
+}
 .video h1{
     background-color: rgba(227, 142, 210, 0.822);
     padding-right: 2vw;
@@ -174,6 +190,21 @@ a:hover{
     display: inline;
 }
 .video2 h1{
+    background-color: rgba(228, 157, 214, 0.634);
+    display: inline;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    border-radius: 1vw;
+}
+.videohidden h1{
+    background-color: rgba(228, 157, 214, 0.634);
+    display: inline;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    border-radius: 1vw;
+    display: none;
+}
+.videoshown h1{
     background-color: rgba(228, 157, 214, 0.634);
     display: inline;
     padding-right: 2vw;
