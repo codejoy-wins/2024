@@ -1,3 +1,4 @@
+// contact me for many more secret videos than the ones hidden here
 function truth(){
     console.log("truth");
     document.getElementById("title").innerHTML=`
