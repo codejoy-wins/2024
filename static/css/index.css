@@ -1400,6 +1400,18 @@ footer{
     background-repeat: no-repeat;
     background-position: center;
 }
+.spotsubmainn88899{
+    display:inline-block;
+    min-width: 220px;
+    min-height: 210px;
+    max-height: 400px;
+    /* background-image: url(../img/lightcom.png); */
+    /* background-image: url(../img/vmanreal.png); */
+    background-image: url(../img/oig3.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .spotsubmainn8899{
     display:inline-block;
     min-width: 220px;
@@ -1530,6 +1542,18 @@ footer{
 .spotsubmain7{
     /* background-color: blue; */
     background-image: url(../img/mad.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain77{
+    /* background-color: blue; */
+    background-image: url(../img/altposter.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
