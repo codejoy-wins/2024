@@ -169,6 +169,9 @@ a:hover{
 #password{
     color: gold;
 }
+.asha{
+    display: inline-block;
+}
 .videohidden{
     display: none;
     max-width: 100%;
