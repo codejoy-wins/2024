@@ -7,6 +7,12 @@ let manobj = [
         "picture": "cute.jpg"
     },
     {
+        "song": "AllYouWanted",
+        "artist":"Michelle Branch",
+        "fullsong": "All You Wanted",
+        "picture": ""
+    },
+    {
         "song": "alliwanted",
         "artist": "Paramore",
         "fullsong": "All I Wanted",
