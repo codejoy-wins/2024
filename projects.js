@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
          },
         
         { title: "OneDate",
-         description: "A 2single-page web application that uses artificial intelligence to generate a date for you in between you and your date's current location.", 
+         description: "A single-page web application that uses artificial intelligence to generate a date for you in between you and your date's current location.", 
          imageUrl: "static/img/1d.jpg",
          linkURL:"onedate.html",
          videoembed:"",
