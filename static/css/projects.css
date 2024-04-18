@@ -44,6 +44,9 @@ header {
 .project-description {
     display: none;
 }
+.project-date {
+    display: none;
+}
 .project-image {
     width: 100%; /* Adjust as needed */
     max-width: 300px; /* Adjust as needed */

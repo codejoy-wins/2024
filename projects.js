@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
          },
         
         { title: "OneDate",
-         description: "A single-page web application that uses artificial intelligence to generate a date for you in between you and your date's current location.", 
+         description: "A 2single-page web application that uses artificial intelligence to generate a date for you in between you and your date's current location.", 
          imageUrl: "static/img/1d.jpg",
          linkURL:"onedate.html",
          videoembed:"",
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
          imageUrl: "static/img/fakebook.png",
          linkURL:"",
          videoembed:"https://www.youtube.com/embed/cGj6XZNMmQc?si=-ldn3nU6vq1L0pWK",
-         date:"2022",
+         date:"2020",
 
          },
 
@@ -124,6 +124,10 @@ document.addEventListener('DOMContentLoaded', function() {
         image.src = project.imageUrl;
         image.classList.add('project-image');
 
+        const date = document.createElement('div');
+        date.classList.add('project-date');
+        date.textContent = project.date;
+
         const title = document.createElement('div');
         title.classList.add('project-title');
         title.textContent = project.title;
@@ -143,10 +147,11 @@ document.addEventListener('DOMContentLoaded', function() {
         <iframe width="100%" height="315" src="${project.videoembed}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         `;
         video.classList.add('project-vid', 'hidden');
-
+        item.appendChild(date);
         item.appendChild(image);
         item.appendChild(title);
         item.appendChild(description);
+
         if(project.linkURL){
             item.appendChild(linkButton);
         }
@@ -161,6 +166,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const isDescriptionVisible = description.style.display === 'block';
             description.style.display = isDescriptionVisible ? 'none' : 'block';
             linkButton.style.display = isDescriptionVisible ? 'none' : 'inline-block'; // Toggle link visibility
+            date.style.display = isDescriptionVisible ? 'none' : 'inline-block'; // Toggle link visibility
+
             video.style.display = isDescriptionVisible ? 'none' : 'inline-block';
         });
 
