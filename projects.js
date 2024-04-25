@@ -92,6 +92,13 @@ document.addEventListener('DOMContentLoaded', function() {
         videoembed:"https://www.youtube.com/embed/IJySvOjJwqI?si=67r2SfNbG8auAmmF",
         date:"2024",
      },
+     { title: "React Portfolio", 
+        description: "This is a React app that dynamically reacts to user typing and filters a list of my react apps I made at the time.  This was before I had maxjann.com and was experimenting with React.  I will probably make a new React App Soon.", 
+        imageUrl: "static/img/react.png",
+        linkURL: "https://modest-poitras-0f59e2.netlify.app/",
+        videoembed:"",
+        date:"2020",
+     },
         // I should also add video demos for each project, as well as a link
         // videos/ reviews / music  / homepage
     ];
