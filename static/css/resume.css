@@ -22,9 +22,11 @@
         display: none;
     }
 }
-
+.lynk{
+    display: block;
+}
 .git{
-    color: green;
+    color: tan;
 }
 .what{
     text-align: center;
