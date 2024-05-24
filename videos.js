@@ -192,6 +192,14 @@ function music(){
     <h1> Music Videos </h1>
     `
     document.getElementById("article").innerHTML=`
+
+    <div class="video">
+            <h1>Forbidden Songs</h1>
+            <div class="vid2">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/LcNHS0NgJ7k?si=CphX0Zt7woZqe6Rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
         <div class="video">
             <h1>Lost Coastlines Cover</h1>
             <div class="vid2">
