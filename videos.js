@@ -87,6 +87,15 @@ function coding(){
 
     <div class="video2">
     <h1>
+        Abra Kadabra (Shock Rifle Explosions)
+    </h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/tFDOP4c_VuY?si=PFbrDCIvSii5Wd2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+
+    <div class="video2">
+    <h1>
         $25,000 of Knowledge in 1 Hour
     </h1>
     <div class="vid2">
