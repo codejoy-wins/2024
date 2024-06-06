@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
         imageUrl: "static/img/ss.png",
         linkURL: "",
         videoembed:"https://www.youtube.com/embed/tFDOP4c_VuY?si=NiIUBdLc3wn1oRWK",
-        date:"2020",
+        date:"2024",
      },
      { title: "Next.JS Payment App", 
         description: "This is a React app with the Next.js framework that the Nextjs.org course gives a tutorial on.  Still finishing it up but it lets you create, edit, and delete invoices.", 
