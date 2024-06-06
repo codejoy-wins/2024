@@ -9,8 +9,17 @@ function truth(){
     console.log("truth");
     document.getElementById("title").innerHTML=`
     <h1> Philosophy </h1>
+    <h2> The Universe is God Exploding Himself into Fragmented Consciousness </h2>
     `
     document.getElementById("article").innerHTML=`
+
+    <div class="video">
+    <h1>Everything You Know is Brown</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Fzqplr2nZfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
+
 
     <div class="video">
     <h1>Dark Matter</h1>
@@ -19,13 +28,7 @@ function truth(){
     </div>
     </div>
 
-    <div class="videohidden">
-    <h1>Everything You Know is Brown</h1>
-    <div class="vid2">
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Fzqplr2nZfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-    </div>
-
+    
     <div class="video">
     <h1>When You Know You're Spiderman</h1>
     <div class="vid2">
