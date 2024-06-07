@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
         description: "I used Unreal Engine 5 to reimagine the shock rifle from Unreal Tournament 2004", 
         imageUrl: "static/img/ss.png",
         linkURL: "",
-        videoembed:"https://www.youtube.com/embed/tFDOP4c_VuY?si=NiIUBdLc3wn1oRWK",
+        videoembed:"https://www.youtube.com/embed/Gwc1pDRHBvE?si=MPsOv3tkuWeTBQH6",
         date:"2024",
      },
      { title: "Next.JS Payment App", 
