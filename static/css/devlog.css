@@ -1,0 +1,20 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+h1{
+    color: purple;
+}
+img{
+    max-width: 100%;
+}
+.top{
+    text-align: center;
+}
+body{
+    margin: 0 auto;
+    padding: 7vw;
+    padding-top: 0;
+}
+.bottom{
+    /* text-align: center; */
+}
