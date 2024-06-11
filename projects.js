@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
      },
      { title: "Unreal Tournament Shock Rifle", 
         description: "I used Unreal Engine 5 to reimagine the shock rifle from Unreal Tournament 2004", 
-        imageUrl: "static/img/ss.png",
+        imageUrl: "static/img/madjoy.png",
         linkURL: "",
         videoembed:"https://www.youtube.com/embed/Gwc1pDRHBvE?si=MPsOv3tkuWeTBQH6",
         date:"2024",
