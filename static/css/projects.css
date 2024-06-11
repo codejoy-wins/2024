@@ -2,6 +2,10 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+
+}
+body{
+    background-image: url(../img/skytemple.png);
 }
 
 .container {
@@ -23,22 +27,54 @@ header {
     text-align: center;
     padding-bottom: 20px;
 }
-
 .project-item {
     display: inline-block;
     border: 1px solid #ddd;
     margin-bottom: 20px;
     padding: 10px;
     cursor: pointer;
+    /* color: rgb(183, 131, 235); */
+    /* color: rgba(140, 64, 216, 0.851); */
+    /* color: rgb(96, 184, 218); */
+    /* color: black; */
+    /* color: aliceblue; */
+    color: azure;
+
+
+    background-color: rgba(0, 0, 0, 0.184);
+    /* background-color: #0da3e824; */
+    /* text-shadow: 2vw #1f061f; */
 }
 
+
 .project-item:hover {
-    background-color: #f5f5f5;
+    background-color: #f5f5f591;
+    color: black;
+    /* color: rgb(81, 200, 81); */
 }
 
 .project-title {
     font-size: 20px;
     font-weight: bold;
+    /* background-color: rgba(218, 212, 218, 0.425); */
+    /* display: inline-block;
+    border-radius: 2vw;
+    padding: 1vw; */
+
+}
+.project-title:hover {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(32, 107, 220);
+    /* color: rgb(62, 177, 62); */
+    /* color: rgb(62, 177, 62); */
+
+
+    /* background-color: rgba(218, 212, 218, 0.425); */
+    /* display: inline-block;
+    border-radius: 2vw;
+    padding: 1vw; */
+
 }
 
 .project-description {
@@ -68,7 +104,7 @@ header {
     display: none; /* The link is hidden by default */
     padding: 8px 16px;
     margin: 10px 0;
-    background-color: #0da3e8;
+    background-color: #0da3e8cb;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -77,12 +113,43 @@ header {
 }
 
 .project-link:hover {
-    background-color: #ff00ff;
+    /* background-color: #ff00ff; */
+    background-color: #36ce55cc;
+
 
 }
 #footer{
     text-align: center;
+    color: wheat;
 }
 h1{
     text-align: center;
+}
+.last{
+    /* color: rgb(81, 200, 81); */
+    /* color: wheat; */
+    color: azure;
+
+    background-color: rgba(0, 0, 0, 0.552);
+    border-radius: 1vw;
+    padding: 1vw;
+    
+}
+.last a{
+    /* color: rgb(29, 109, 247); */
+    color: rgb(0, 149, 255);
+
+}
+.last a:hover{
+    /* color: greenyellow; */
+    color: #36ce55cc;
+
+}
+#footer a{
+    color: #36ce55cc;
+
+}
+#footer a:hover{
+    color: rgb(0, 149, 255);
+
 }
