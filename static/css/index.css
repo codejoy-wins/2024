@@ -234,6 +234,7 @@ color: black;
 .vidx{
     max-width: 100%;
     opacity: .7;
+    text-align: center;
 }
 #dishonest{
     color: red;
