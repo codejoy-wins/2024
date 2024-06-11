@@ -153,3 +153,7 @@ h1{
     color: rgb(0, 149, 255);
 
 }
+#audio{
+    text-align: center;
+    opacity: .4;
+}
