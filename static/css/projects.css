@@ -44,6 +44,11 @@ header {
     background-color: rgba(0, 0, 0, 0.184);
     /* background-color: #0da3e824; */
     /* text-shadow: 2vw #1f061f; */
+    border-radius: 1vw;
+    border-color: rgba(245, 245, 245, 0.6);
+    padding: 1.5vw;
+    margin: 1.5vw;
+
 }
 
 

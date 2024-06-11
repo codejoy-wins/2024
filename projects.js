@@ -33,6 +33,8 @@ document.addEventListener('DOMContentLoaded', function() {
          { title: "DJ Aliens",
          description: "An iPod type App that simulates 2 Alien DJ's for you, a male and a female with different tastes",
          imageUrl: "static/img/alienapp.png",
+        //  imageUrl: "static/img/21.png",
+
          linkURL:"alien.html",
          videoembed:"",
          date:"2021-2023",
