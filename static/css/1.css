@@ -103,7 +103,7 @@ html, body{
     max-width: 100%;
 }
 .parallaxfeature2{
-    background-image: url("../img/justinherbert.jpeg");
+    background-image: url("../img/alvin.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -157,7 +157,6 @@ a:hover{
     background-size: cover;
 }
 .parallax3{
-    /* background-image: url("../img/henry.jpg"); */
     background-image: url("../img/cd1.jpg");
 
     height: 100vw;
@@ -183,7 +182,7 @@ a:hover{
     background-size: cover;
 }
 .parallax6{
-    background-image: url("../img/travis.jpeg");
+    background-image: url("../img/alvin.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
