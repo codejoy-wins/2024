@@ -197,6 +197,18 @@ function craig(){
     `;
     freezefire();
 }
+function cyberelam(){
+    console.log("change for the good");
+    let targetofteroh = document.getElementById("teroh");
+    document.getElementById("teroh").classList.remove("parallaxnew");
+    document.getElementById("teroh").classList.add("parallaxlight");
+    document.getElementById("Elam").classList.remove("red");
+    document.getElementById("Elam").classList.add("blue");
+    document.getElementById("outr").innerHTML=`
+    <div class="parallax5117"></div>
+    `;
+    // freezefire();
+}
 
 
 // run craig again every 5 minutes?
