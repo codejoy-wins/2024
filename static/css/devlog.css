@@ -24,3 +24,6 @@ a:hover{
     padding: 1vw;
     border-radius: 1vw;
 }
+.vid{
+    max-width: 100%;
+}
