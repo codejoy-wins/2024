@@ -192,6 +192,9 @@ function craig(){
     document.getElementById("teroh").classList.add("parallaxlight");
     document.getElementById("Elam").classList.remove("red");
     document.getElementById("Elam").classList.add("blue");
+    document.getElementById("outr").innerHTML=`
+    <div class="parallax5117"></div>
+    `;
     freezefire();
 }
 

@@ -3,7 +3,11 @@ html,body .ernie{
 }
 html,body .parallax5{
     background-color: black;
-}    .verse{
+}    
+html,body .parallax5117{
+    background-color: black;
+}    
+.verse{
     border: solid gold .2vw;
     padding: 1vw;
     margin: 1vw;
@@ -770,6 +774,31 @@ p a:hover{
     /* background-image: url("../img/angel.png"); */
     /* background-image: url("../img/Iridielle.jpg"); */
     background-image: url("../img/cyberElam.jpg");
+    /* background-image: url("../img/ce2.jpg"); */
+
+
+    /* background-image: url("../img/paris\ copy.png"); */
+
+
+    /* background-image: url("../img/elamef.png"); */
+
+
+
+
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.parallax5117{
+    /* background-image: url("../img/The_One_TradingCard\ copy\ 3.jpg"); */
+    /* background-image: url("../img/Avriel.jpeg"); */
+    /* background-image: url("../img/angel.png"); */
+    /* background-image: url("../img/Iridielle.jpg"); */
+    /* background-image: url("../img/cyberElam.jpg"); */
+    background-image: url("../img/skytemple.png");
+
     /* background-image: url("../img/ce2.jpg"); */
 
 
@@ -2395,6 +2424,11 @@ div#tetrahedron > div.back {
         background-attachment: scroll;
       }
       .parallax5 {
+        background-attachment: scroll;
+        background-size: cover;
+        zoom:117%;
+      }
+      .parallax5117 {
         background-attachment: scroll;
         background-size: cover;
         zoom:117%;
