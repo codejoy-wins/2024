@@ -115,6 +115,9 @@ const helloWorld = () => {
         <h3 class="insane">Fly through my  <a href="fly.html">interactive resume</a> </h3>
         
         `
+        document.getElementById("maxster").innerHTML=`
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PLXK9t4X4Xg?si=bSVqwNMYdjr3FxUu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        `
     }
     if(deviceType()=="tablet"){
         console.log("I see you're on a tablet");
@@ -122,6 +125,9 @@ const helloWorld = () => {
             <p>
             <span id="goldfirst">W</span>elcome to Cloudland, I see you're on instagram.
             </p>
+        `
+        document.getElementById("maxster").innerHTML=`
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PLXK9t4X4Xg?si=bSVqwNMYdjr3FxUu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         `
     }
     if(deviceType()=="mobile"){
@@ -131,6 +137,9 @@ const helloWorld = () => {
             <span id="goldfirst">W</span>elcome to Cloudland, I see you're on your "cell" phone.
             </p>
         `
+        // document.getElementById("maxster").innerHTML=`
+        //     <iframe width="100%" height="315" src="https://www.youtube.com/embed/PLXK9t4X4Xg?si=bSVqwNMYdjr3FxUu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        // `
     }
     
 }
