@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
          },
      { title: "Fantasy Football Apps", 
         description: "The video is a demo of a fullstack web application I built with Python and the Django Framework. The 'Try App' Link will take you to my power rankings where I used a parallax effect to make a fun article for my league to read weekly. ", 
-        imageUrl: "static/img/henry.jpg",
+        imageUrl: "static/img/ak.jpg",
         linkURL: "fantasy.html",
         videoembed:"https://www.youtube.com/embed/0Lo2n8dznWY?si=0TGl5-Qkxk-GM36D",
         date:"2019",
