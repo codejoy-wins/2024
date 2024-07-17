@@ -116,7 +116,7 @@ const helloWorld = () => {
         
         `
         document.getElementById("maxster").innerHTML=`
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/PLXK9t4X4Xg?si=bSVqwNMYdjr3FxUu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U3ZmHenhUdI?si=UD-8sePx4RAQtFdB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         `
     }
     if(deviceType()=="tablet"){
@@ -127,7 +127,7 @@ const helloWorld = () => {
             </p>
         `
         document.getElementById("maxster").innerHTML=`
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/PLXK9t4X4Xg?si=bSVqwNMYdjr3FxUu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U3ZmHenhUdI?si=UD-8sePx4RAQtFdB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         `
     }
     if(deviceType()=="mobile"){
