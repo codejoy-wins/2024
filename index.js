@@ -188,11 +188,6 @@ const nextTime = () =>{
     }
     
 }
-// const featurephotos=["teroh0","teroh1","teroh2","teroh3","teroh4","teroh5","teroh6"];
-
-// // choose random image and make that the main image
-
-// let currentri = "parallaxnew";
 
 function craig(){
     console.log("change for the good");

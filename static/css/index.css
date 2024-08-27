@@ -159,11 +159,6 @@ canvas {
 .picxxyy{
     max-width: 100%;
     text-align: center;
-    /* background-color: pink; */
-    /* background: linear-gradient(rgba(255, 192, 203, 0.761),rgba(0, 0, 255, 0.738),rgba(255, 166, 0, 0.819)); */
-    /* background: linear-gradient(rgba(255, 192, 203, 0.761),rgba(0, 0, 255, 0.738),rgba(255, 166, 0, 0.819)); */
-
-
     margin: 0;
 }
 .picxyx{
@@ -173,8 +168,6 @@ canvas {
     margin: 0;
 }
 .elam{
-    /* background-color: forestgreen; */
-    /* background: linear-gradient(green,violet,red); */
     background: linear-gradient(45deg, red, blue);
     color: white;
 }
