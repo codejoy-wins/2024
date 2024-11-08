@@ -248,6 +248,7 @@ let songz = [
     `711117`,
     `Eternalized`,
     `BleedingOutGarageBand`,
+    `liquified`,
 ]
 
 let songs = [
@@ -280,6 +281,7 @@ let songs = [
        `Seven Eleven One One Seven`,
        `Eternalized`,
        `Bleeding Out (Garage Band Version)`,
+       `liquified`,
 ]
 
 function randosong(){
