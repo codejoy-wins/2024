@@ -269,3 +269,9 @@ body{
     background-color: peachpuff;
     float: right;
 }
+.xp a{
+    color: plum;
+}
+.xp a:hover{
+    color: gold;
+}
