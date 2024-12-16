@@ -13,14 +13,14 @@ function truth(){
     `
     document.getElementById("article").innerHTML=`
 
-    <div class="videohidden">
+    <div class="video">
     <h1>Everything You Know is Brown</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/Fzqplr2nZfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     </div>
 
-    <div class="videohidden">
+    <div class="video">
     <h1>There's Something About the Government</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/RawvPDY19Oo?si=XKP_2p4yThNANrgj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -36,14 +36,14 @@ function truth(){
 
     
     <div class="video">
-    <h1>When You Know You're Spiderman</h1>
+    <h1>When You Know Who You Are</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/UsnSZ1DKJg8?si=LDtT7OhFiaaeQtVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     </div>
 
 
-    <div class="videohidden">
+    <div class="video">
     <h1>Superjuxtaposition of Nothing and Everything</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/oBqng6eTfMc?si=znWwFvLZsiXIJEn1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -51,14 +51,14 @@ function truth(){
     </div>
 
     
-    <div class="videohidden">
+    <div class="video">
     <h1>BelieveInYou</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/nncLReRR9Qk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     </div>
 
-    <div class="videohidden">
+    <div class="video">
     <h1>A.I. Theory</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/ojW9U9gowOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -72,7 +72,23 @@ function truth(){
     </div>
     </div>
 
-    <p class="asha">More Videos Available Upon Request</p>
+    <div class="video">
+    <h1>Sermon on a Cloud</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/2vSqYtBBLkI?si=L3YYiIGpB9HbhuXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>whiteBloodCell</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/d2A09iidkTs?si=nEz1E8Xer5yrOWca" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    
+
+    <p class="asha">Disclaimer:  These videos are not necessarily reflective of my current state of mind.</p>
     `
     document.getElementById("picture").innerHTML=`
     <img src="./static/img/dioxy.jpg" alt="spectral" class="pic2">
@@ -494,4 +510,4 @@ function chess(){
     <img src="./static/img/queencheck.png" alt="chess" class="pic2">
     `
 }
-chess();
+truth();
