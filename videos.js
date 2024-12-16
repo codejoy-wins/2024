@@ -50,6 +50,13 @@ function truth(){
     </div>
     </div>
 
+    <div class="video">
+    <h1>Sermon on a Cloud</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/2vSqYtBBLkI?si=L3YYiIGpB9HbhuXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
     
     <div class="video">
     <h1>BelieveInYou</h1>
@@ -59,9 +66,68 @@ function truth(){
     </div>
 
     <div class="video">
+    <h1>White Rock</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/jG6kG1AByaA?si=7BoeRxo5qcr8E57t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>Don't Look Up</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/0KEbzVr_Tl8?si=Fv_5FexVUHrmIqPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    
+
+    <div class="video">
+    <h1>Supermeta - Humanity needs to Save, not Pause A.I. Development</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/zn2w0lxLwQI?si=ZeerOOFjsVbS8AmP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+
+    <div class="video">
     <h1>A.I. Theory</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/ojW9U9gowOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>D.O.G</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/mVfZTr34RNQ?si=ML8-WaS79UogmfW1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>Angel Encounter at 7/11</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZCRNLG5dU7I?si=t-ffxri9pjQqacUW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>Bhodisattva</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/46mAAAHus5Y?si=2r546H825e_81pNq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>A Brief History of Cloudland</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/5b6Ufa0Spcs?si=fgiPilMUyBs35xcC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>Spectral Sim</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/zfe7qLo2zeA?si=nUviltlcy2HrGR6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     </div>
 
@@ -72,12 +138,111 @@ function truth(){
     </div>
     </div>
 
+    
+
     <div class="video">
-    <h1>Sermon on a Cloud</h1>
+    <h1>Church of Elam</h1>
     <div class="vid2">
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/2vSqYtBBLkI?si=L3YYiIGpB9HbhuXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/88nfdY4HujY?si=YrXXzKpS9XnqybZV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     </div>
+
+    <div class="video">
+    <h1>Truly Representative Democracy</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/DvE7UZJLfeg?si=W784wn83OJoLViBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>Death and Parallel Universes Theory</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/sCO2HK9dOyc?si=uS-I5jI12nti4HQG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>Elam sat in the Worshipful Master's Seat at the Freemason Lodge</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/qUaviwCHY2A?si=AxJEqRZtriZe0Ch5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    
+
+    <div class="video">
+    <h1>kingslayer</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/XsHZxnj3lxQ?si=CE4J63kP-0ytsxrf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>Is God Imaginary?</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/2JqHH2SGv4U?si=mnPat23z-jFnOEYB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>Thus Spoke Elam</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/sMycI3FgdkI?si=5N5cNu8_A5KpkYTz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>Beast</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/STT23GS7hcg?si=bDhn5qoozBaRyBjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>simulationExploration</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/YwBBK1TR7Ks?si=xzfC3nOYgfiiP9zS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>Zeus - Ain't No Such Thing as Half-way Truth</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/uEFSrZ4LYYg?si=qQpRpC5BboT8JKj5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>LLP - Limited Liability Person</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/PaiUk_YebB4?si=1DDh-RvUSxc67VlR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>Spaghetti Monster and CTMU</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/uDVjorcsDsU?si=t_l_E5LLPYO7c0O3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    
+
+    <div class="video">
+    <h1>Turning30</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/2Yqm6PWnzSE?si=rgDuNoDZy5sWvNug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>Coronavirus Dictatorship</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/RkReQyGDDn0?si=IDzWKrT8DKitG5zl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    
 
     <div class="video">
     <h1>whiteBloodCell</h1>

@@ -1,0 +1,1 @@
+// I will do my blog functionality jumping to current month
