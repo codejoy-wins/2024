@@ -154,9 +154,12 @@ html, body{
     width: 100%;
     text-align: center;
 }
+.option a{
+    color: azure;
+}
 a{
     text-decoration: none;
-    color: whitesmoke;
+    color: cyan;
 }
 a:hover{
     color: wheat;
@@ -278,7 +281,7 @@ h1 a{
     border-radius: 1ch;
     padding: 3vw;
     /* background-color: rgba(204, 199, 199, 0.56); */
-    background-color: rgba(92, 92, 92, 0.507);
+    background-color: rgba(92, 92, 92, 0.383);
     color: black;
     font-size: larger;
 }
@@ -289,7 +292,7 @@ h1 a{
     border-radius: 1ch;
     padding: 3vw;
     /* background-color: rgba(204, 199, 199, 0.56); */
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.685);
     color: black;
     font-size: larger;
 }
@@ -314,7 +317,9 @@ h1 a{
 .post2advanced{
     border-radius: 1ch;
     padding: 3vw;
-    background-color: rgba(211, 17, 17, 0.65);
+    /* background-color: rgba(211, 17, 17, 0.65); */
+    background-color: rgba(36, 10, 36, 0.582);
+
     padding-bottom: 7vw;
     /* color: silver; */
     color: whitesmoke;
@@ -594,7 +599,6 @@ ol{
     background-color: skyblue;
     color: whitesmoke;
     display: inline-block;
-    border-radius: 2vw;
     text-align: center;
 }
 .customsong2 h5{
@@ -608,16 +612,12 @@ ol{
     padding: 1vw;
 }
 .songxy{
-    background-color: purple;
-    color: plum;
-    border-radius: 1vw;
-    padding: 1vw;
+    background-color: navy;
+    color: wheat;
 }
 .songyy{
     background-color: rgba(76, 7, 95, 0.566);
     color: plum;
-    border-radius: 1vw;
-    padding: 1vw;
 }
 .songy{
     background-color: black;
@@ -659,13 +659,25 @@ ol{
 .sky{
     color: rgba(29, 162, 229, 0.904);
 }
-
+.rainbowpost{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(204, 199, 199, 0.56); */
+    background-color: rgba(245, 245, 245, 0.182);
+    color: black;
+    font-size: larger;
+}
+.rainbowpost p{
+    background-color: rgba(0, 136, 255, 0.643);
+    color: azure;
+}
 .whitepost p{
     /* background-color: rgba(0, 0, 0, 0.621); */
     color: white;
     /* color: whitesmoke; */
-    /* background-color: rgba(82, 4, 100, 0.904); */
-    background-color: rgba(29, 162, 229, 0.904);
+    /* background-color: rgba(29, 162, 229, 0.904); */
+    background-color: rgba(29, 162, 229, 0.5);
+
 
     padding: 1vw;
     border-radius: 1vw;
@@ -696,7 +708,7 @@ ol{
     padding: 1vw;
 }
 .post2advanced p{
-    background-color: rgba(0, 0, 0, 0.726);
+    background-color: rgba(0, 0, 0, 0.938);
     padding: 1vw;
     border-radius: 1vw;
 }
@@ -742,22 +754,6 @@ ul{
     border-radius: 1vw;
 }
 .godlike h2, h3{
-    color: black;
-}
-.greenpost{
-    border-radius: 1ch;
-    padding: 3vw;
-    background-color: rgba(17, 211, 49, 0.65);
-    padding-bottom: 7vw;
-    color: rgb(228, 194, 129);
-    font-size: larger;
-}
-.greenpost p{
-    background-color: rgba(0, 0, 0, 0.779);
-    padding: 1vw;
-    border-radius: 1vw;
-}
-.greenpost h2, h3{
     color: black;
 }
 .post4advanced p{
@@ -880,7 +876,11 @@ h4{
     display: none;
 }
 body{
-    background-image: url(/static/img/ink.jpg);
+    /* background-image: url(/static/img/drElam.jpg); */
+    /* background-image: url(/static/img/think.png); */
+    background-image: url(/static/img/tr.jpg);
+
+    /* background-size: auto; */
     background-size: contain;
 }
 .pic100{
@@ -1055,4 +1055,52 @@ img{
     background-color: black;
     padding: 1vw;
     border-radius: 1vw;
+}
+
+.audio-player {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 20px;
+}
+.past{
+    color: azure;
+    padding: 1vw;
+    background-color: rgba(137, 43, 226, 0.527);
+}
+.play-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+    transition: color 0.3s ease;
+}
+
+.play-button::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%);
+    border-radius: 5px;
+    background-size: 300% 300%;
+    animation: rainbow 3s ease infinite;
+    transition: opacity 0.3s ease;
+}
+@keyframes rainbow {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.play-button:hover::after {
+    opacity: 0.7;
 }

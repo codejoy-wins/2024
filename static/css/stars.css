@@ -4,9 +4,14 @@
     font-size: 22px;
 }
 ul{
-    background-color: rgba(0, 255, 255, 0.608);
+    /* background-color: rgba(0, 255, 255, 0.608); */
+    background-color: rgba(141, 58, 200, 0.608);
+
     border-radius: 1.3vw;
     padding: .4vw;
+}
+.lucifer li{
+    text-align: right;
 }
 
 .kanye{
@@ -334,7 +339,7 @@ h1 a{
     border-radius: 1ch;
     padding: 3vw;
     /* background-color: rgba(221, 160, 221, 0.733); */
-    background-color: rgba(211, 17, 17, 0.65);
+    background-color: rgba(53, 241, 228, 0.169);
     color: black;
     font-size: larger;
 }
@@ -696,7 +701,7 @@ ol{
     padding: 1vw;
 }
 .post2advanced p{
-    background-color: rgba(0, 0, 0, 0.726);
+    background-color: rgba(0, 0, 0, 0.938);
     padding: 1vw;
     border-radius: 1vw;
 }
@@ -742,22 +747,6 @@ ul{
     border-radius: 1vw;
 }
 .godlike h2, h3{
-    color: black;
-}
-.greenpost{
-    border-radius: 1ch;
-    padding: 3vw;
-    background-color: rgba(17, 211, 49, 0.65);
-    padding-bottom: 7vw;
-    color: rgb(228, 194, 129);
-    font-size: larger;
-}
-.greenpost p{
-    background-color: rgba(0, 0, 0, 0.779);
-    padding: 1vw;
-    border-radius: 1vw;
-}
-.greenpost h2, h3{
     color: black;
 }
 .post4advanced p{
@@ -880,7 +869,7 @@ h4{
     display: none;
 }
 body{
-    background-image: url(/static/img/ink.jpg);
+    background-image: url(/static/img/amazing.jpg);
     background-size: contain;
 }
 .pic100{

@@ -696,7 +696,7 @@ ol{
     padding: 1vw;
 }
 .post2advanced p{
-    background-color: rgba(0, 0, 0, 0.726);
+    background-color: rgba(0, 0, 0, 0.938);
     padding: 1vw;
     border-radius: 1vw;
 }
@@ -742,22 +742,6 @@ ul{
     border-radius: 1vw;
 }
 .godlike h2, h3{
-    color: black;
-}
-.greenpost{
-    border-radius: 1ch;
-    padding: 3vw;
-    background-color: rgba(17, 211, 49, 0.65);
-    padding-bottom: 7vw;
-    color: rgb(228, 194, 129);
-    font-size: larger;
-}
-.greenpost p{
-    background-color: rgba(0, 0, 0, 0.779);
-    padding: 1vw;
-    border-radius: 1vw;
-}
-.greenpost h2, h3{
     color: black;
 }
 .post4advanced p{
@@ -880,7 +864,7 @@ h4{
     display: none;
 }
 body{
-    background-image: url(/static/img/ink.jpg);
+    background-image: url(/static/img/goldatom.jpg);
     background-size: contain;
 }
 .pic100{
