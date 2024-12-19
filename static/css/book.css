@@ -872,3 +872,8 @@ body{
     background-color: black;
     text-decoration: line-through;
 }
+.bold{
+    font-weight: bold;
+    color: black;
+    background-color: pink;
+}
