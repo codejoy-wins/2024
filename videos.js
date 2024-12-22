@@ -253,7 +253,7 @@ function truth(){
 
     
 
-    <p class="asha">Disclaimer:  These videos are not necessarily reflective of my current state of mind.  Search the code for the hidden video, Sermon on a Cloud.</p>
+    <p class="asha">Disclaimer:  These videos are not necessarily reflective of my current state of mind. </p>
     `
     document.getElementById("picture").innerHTML=`
     <img src="./static/img/dioxy.jpg" alt="spectral" class="pic2">

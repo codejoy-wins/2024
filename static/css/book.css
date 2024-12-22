@@ -155,7 +155,7 @@ a{
 a:hover{
     color: wheat;
     font-weight: bold;
-    cursor: cell;
+    cursor: none;
 }
 .current{
     font-weight: bold;
@@ -876,4 +876,8 @@ body{
     font-weight: bold;
     color: black;
     background-color: pink;
+}
+
+.elamtra a{
+    cursor: pointer;
 }
