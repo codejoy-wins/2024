@@ -575,6 +575,16 @@ ol{
     padding: 1vw;
     border-radius: 1vw;
 }
+.postmythic p{
+    background-color: rgba(47, 9, 47, 0.921);
+    /* color: #c90d00; */
+    /* color: azure; */
+    color: wheat;
+
+
+    padding: 1vw;
+    border-radius: 1vw;
+}
 .post1advanced p{
     background-color: rgba(250, 189, 250, 0.851);
     padding: 1vw;
