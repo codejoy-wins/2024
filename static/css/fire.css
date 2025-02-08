@@ -286,11 +286,14 @@ h1 a{
 .whitepost h3{
     color: rgb(29, 78, 120);
 }
+.whitepost a{
+    color: gold;
+}
 .whitepost{
     border-radius: 1ch;
     padding: 3vw;
     /* background-color: rgba(204, 199, 199, 0.56); */
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.308);
     color: black;
     font-size: larger;
 }
@@ -405,8 +408,8 @@ h1 a{
     padding: .5vw;
     border-radius: .5vw;
 }
-.whitegold a{
-    background-color: gold;
+.whitegold p a{
+    background-color: wheat;
     color: black;
     padding: .5vw;
     border-radius: .5vw;
@@ -426,7 +429,7 @@ h1 a{
     font-size: larger;
 }
 .whitegold h2{
-    color: goldenrod;
+    color: black;
 }
 .whitegold{
     border-radius: 1ch;
@@ -677,7 +680,7 @@ ol{
     color: white;
     /* color: whitesmoke; */
     /* background-color: rgba(82, 4, 100, 0.904); */
-    background-color: rgba(29, 162, 229, 0.904);
+    background-color: rgba(29, 162, 229, 0.619);
 
     padding: 1vw;
     border-radius: 1vw;

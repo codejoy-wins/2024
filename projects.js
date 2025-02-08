@@ -8,14 +8,16 @@ document.addEventListener('DOMContentLoaded', function() {
          date:"2020-current",
 
          },
-        
-        { title: "OneDate",
-         description: "A single-page web application that uses artificial intelligence to generate a date for you in between you and your date's current location.", 
-         imageUrl: "static/img/1d.jpg",
-         linkURL:"onedate.html",
-         videoembed:"",
-         date:"2024",
+
+         { title: "Prime Words", 
+            description: "I just built this app with the latest model from openAI, mini o3 high, that finally was able to solve my anagram intelligence test.  I used Node.js and Express and Heroku", 
+            imageUrl: "static/img/prime2.png",
+            linkURL: "https://primewords-1ad95f96dc03.herokuapp.com/",
+            videoembed:"",
+            date:"2025",
          },
+        
+        
          { title: "Mewthree",
          description: "A single-page web application that uses artificial intelligence and a pokemon API to let you pick a team of any 6 pokemon and challenge Mewthree to a battle.", 
          imageUrl: "static/img/mewthree.png",
@@ -39,7 +41,16 @@ document.addEventListener('DOMContentLoaded', function() {
          videoembed:"",
          date:"2021-2023",
 
+
          },
+         { title: "OneDate",
+            description: "A single-page web application that uses artificial intelligence to generate a date for you in between you and your date's current location.", 
+            imageUrl: "static/img/1d.jpg",
+            linkURL:"onedate.html",
+            videoembed:"",
+            date:"2024",
+            },
+            
          { title: "Starbros and other games",
          description: "A game with original assets / level design and mechanics.  Follow the link and it will take you to all my other games",
          imageUrl: "static/img/starclean.png",
