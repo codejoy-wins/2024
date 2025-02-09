@@ -137,3 +137,9 @@ p{
     border-radius: 2vw;
     padding: .1vw;
 }
+
+@media only screen and (max-device-width: 1117px) {
+    html{
+        background-position: 100% 47%;
+    }
+}
