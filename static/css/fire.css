@@ -1067,3 +1067,10 @@ img{
     color: white;
     background-color: rgba(5, 108, 163, 0.826);
 }
+.oh{
+    opacity: .3;
+}
+/* .superspecial{
+    display: inline-block;
+    background-color: rgb(203, 169, 32);
+} */
