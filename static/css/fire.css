@@ -1055,3 +1055,15 @@ img{
     padding: 1vw;
     border-radius: 1vw;
 }
+.post2advanced .newest{
+    color: white;
+    background-color: rgba(5, 108, 163, 0.826);
+}
+.post4advanced .newest{
+    color: white;
+    background-color: rgba(5, 108, 163, 0.826);
+}
+.post .newest{
+    color: white;
+    background-color: rgba(5, 108, 163, 0.826);
+}
