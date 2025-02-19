@@ -15,13 +15,13 @@ exports.handler = async function(event, context) {
         `Write a paragraph from your perspective describing the fight vs. ${trainer}`
     ;
     const completion = await openai.chat.completions.create({
-        model: "gpt-3.5-turbo",
+        model: "gpt-4o",  /// gpt-3.5-turbo -> gpt-4o
         messages: [
             { role: "system", content: "You are Mewthree, a new and evolved version of Mewtwo" },
             { role: "user", content: promptMessage },
         ],
             temperature: 0.8, // Adjust as needed. .8 was working before
-            max_tokens: 222, // Adjust based on your needs. 220 never errors
+            max_tokens: 333, // Adjust based on your needs. 220 never errors
         });
     console.log(completion.choices[0]);
     const summary = completion.choices[0];
