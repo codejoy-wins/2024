@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         
          { title: "Mewthree",
-         description: "A single-page web application that uses artificial intelligence and a pokemon API to let you pick a team of any 6 pokemon and challenge Mewthree to a battle.", 
+         description: "A single-page web application that uses artificial intelligence and a pokemon API to let you pick a team of any 6 pokemon and challenge Mewthree to a battle.  I actually just had to upgrade the AI model to gpt-4o because they discontinued 3.5 turbo so my app stopped working", 
          imageUrl: "static/img/mewthree.png",
          linkURL:"pokedex.html",
          videoembed:"",
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
          date:"2020-2024",
          },
          { title: "DJ Aliens",
-         description: "An iPod type App that simulates 2 Alien DJ's for you, a male and a female with different tastes",
+         description: "An iPod type App that simulates 2 Alien DJ's for you, a male and a female with different tastes.  I recently updated the girl dj image but I'm still not sold on it, it is different from the picture here.  I could make another version of this but it is tricky.  I think the next full version would have to allow user uploads of songs and sort them, but people don't really have music files anymore as much as stream them on spotify",
         //  imageUrl: "static/img/alienapp.png",
          imageUrl: "static/img/alienz.png",
 
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
          },
          { title: "OneDate",
-            description: "A single-page web application that uses artificial intelligence to generate a date for you in between you and your date's current location.", 
+            description: "A single-page web application that uses artificial intelligence to generate a date for you in between you and your date's current location.  I could still improve this app because it doesn't actually find a location in between, it kind of does, as part of the prompt, but it's not actually using geolocation or anything like that.  Simply upgrading to 4o is already providing good results though", 
             imageUrl: "static/img/1d.jpg",
             linkURL:"onedate.html",
             videoembed:"",
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
         date:"2024",
      },
      { title: "Unreal Tournament Shock Rifle", 
-        description: "I used Unreal Engine 5 to reimagine the shock rifle from Unreal Tournament 2004", 
+        description: "I used Unreal Engine 5 to reimagine the shock rifle from Unreal Tournament 2004.  I recently created a main menu and it took me all night to figure out why it was breaking my ai in the game.  Turns out I needed to change the A.I. nav mesh in my level from static to dynamic so that it reloads itself when I come from the main menu into the first level.", 
         imageUrl: "static/img/madjoy.png",
         linkURL: "",
         videoembed:"https://www.youtube.com/embed/PLXK9t4X4Xg?si=bSVqwNMYdjr3FxUu",
