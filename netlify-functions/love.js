@@ -14,7 +14,7 @@ exports.handler = async function(event, context) {
         `Plan a fun date at a convenient location located in between ${team}`
     ;
     const completion = await openai.chat.completions.create({
-        model: "gpt-3.5-turbo",
+        model: "gpt-4o",
         messages: [
             { role: "system", content: "You are MaxGPT, a helpful assistant that plans dates and helps people safely pursue love"},
             { role: "user", content: promptMessage },
