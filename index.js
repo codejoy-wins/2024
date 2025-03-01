@@ -250,6 +250,7 @@ let songz = [
     `liquified`,
     `royaThaDestroya`,
     `lovelyRap`,
+    `ruler`,
 ]
 
 let songs = [
@@ -284,6 +285,7 @@ let songs = [
        `liquified`,
        `Roya Tha Destroya`,
        `Lovely Rap`,
+       `Ruler`,
 ]
 
 function randosong(){
