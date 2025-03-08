@@ -66,7 +66,7 @@ function truth(){
     </div>
     </div>
 
-    <div class="videohidden">
+    <div class="video">
     <h1>Sermon on a Cloud</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/2vSqYtBBLkI?si=L3YYiIGpB9HbhuXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
