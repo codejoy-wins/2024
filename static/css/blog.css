@@ -524,7 +524,11 @@ ol{
     font-size: larger;
     padding-bottom: 6vw;
 }
-
+.poem{
+    display: block;
+    background-color: wheat;
+    color: coral;
+}
 
 .dark2 p{
     color: black;
