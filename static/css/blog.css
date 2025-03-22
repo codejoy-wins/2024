@@ -274,6 +274,15 @@ h1 a{
     color: black;
     font-size: larger;
 }
+.postice{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(11, 10, 43, 0.56);
+    /* background-color: rgba(134, 118, 15, 0.56); */
+
+    color: black;
+    font-size: larger;
+}
 .post4{
     border-radius: 1ch;
     padding: 3vw;
@@ -526,7 +535,7 @@ ol{
 }
 .poem{
     display: block;
-    background-color: wheat;
+    background-color: rgb(97, 170, 249);
     color: coral;
 }
 
@@ -634,6 +643,14 @@ ol{
     color: rgba(0, 0, 0, 0.621);
     /* color: whitesmoke; */
     background-color: rgba(226, 183, 236, 0.904);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.postice p{
+    /* background-color: rgba(0, 0, 0, 0.621); */
+    color: rgba(0, 0, 0, 0.621);
+    /* color: whitesmoke; */
+    background-color: rgba(183, 221, 236, 0.904);
     padding: 1vw;
     border-radius: 1vw;
 }
