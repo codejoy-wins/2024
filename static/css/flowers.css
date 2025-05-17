@@ -8,10 +8,18 @@ ul{
     border-radius: 1.3vw;
     padding: .4vw;
 }
-
-
+.god{
+    padding: 2vw;
+    border-radius: 1vw;
+    margin-bottom: 500px;
+}
+.god p{
+    animation: elam 10s infinite;
+    background-color: rgba(0, 0, 0, 0.336);
+    border-radius: 1vw;
+}
 .kanye{
-    color: gold;
+    color: rgb(102, 100, 85);
     font-weight: bold;
 }
 .kanye:hover{
@@ -97,7 +105,9 @@ html, body{
     float: left;
     padding-right: 1vw;
 }
-
+.king{
+    margin-bottom: 333px;
+}
 .king p{
     color: wheat;
     animation: elam 10s infinite;
