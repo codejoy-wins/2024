@@ -28,14 +28,23 @@ ul{
     20%{
         color: wheat;
     }
+    30%{
+        color:cyan;
+    }
     40%{
         color: black;
+    }
+    50%{
+        color: violet;
     }
     60%{
         color: wheat;
     }
     80%{
         color: silver;
+    }
+    90%{
+        color: azure;
     }
 }
 .month{
