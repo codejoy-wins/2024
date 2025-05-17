@@ -88,6 +88,15 @@ html, body{
     float: left;
     padding-right: 1vw;
 }
+
+.king p{
+    color: wheat;
+    animation: elam 10s infinite;
+}
+.king h2{
+    animation: elam 10s infinite;
+
+}
 .vidnormal{
     max-width: 100%;
     max-height: 100%;
