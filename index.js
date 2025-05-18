@@ -253,6 +253,7 @@ let songz = [
     `ruler`,
     `deadInternet`,
     `GreedyKing`,
+    `GodStreetPark`,
 ]
 
 let songs = [
@@ -290,6 +291,7 @@ let songs = [
        `Ruler`,
        `Dead Internet Theory`,
        `King of Greed`,
+       `God's Street Park`,
 ]
 
 function randosong(){
