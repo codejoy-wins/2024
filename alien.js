@@ -819,6 +819,12 @@ let manobj = [
         "fullsong": "2009",
         "picture": "mac11.png",
     },
+    {
+        "song": "GodStreetPark",
+        "artist": "Pseudogenius",
+        "fullsong": "God's Street Park",
+        "picture": "",
+    },
 ];
 
 let womanobj = [
