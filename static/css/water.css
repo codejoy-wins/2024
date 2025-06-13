@@ -9,7 +9,7 @@ ul{
     padding: .4vw;
 }
 .post3advanced p{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.88);
     border-radius: 3vw;
     /* color: rgb(165, 243, 243); */
     color: crimson;
