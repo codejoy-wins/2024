@@ -19,7 +19,9 @@ ul{
 .post3advanced{
     padding: 1vw;
 }
-
+.post3advanced h2{
+    color: black;
+}
 .kanye{
     color: gold;
     font-weight: bold;
