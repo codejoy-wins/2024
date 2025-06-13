@@ -8,6 +8,14 @@ ul{
     border-radius: 1.3vw;
     padding: .4vw;
 }
+.post3advanced p{
+    background-color: black;
+    border-radius: 3vw;
+    /* color: rgb(165, 243, 243); */
+    color: crimson;
+
+    padding: 1vw;
+}
 
 .kanye{
     color: gold;
