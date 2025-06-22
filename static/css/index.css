@@ -184,18 +184,16 @@ canvas {
 .wbc:hover{
 
     border-radius: 100vw;
-    
     background-color: wheat;
     color: red;
 }
 .wbc2{
-    background-color: blue;
+    background-color: rgba(245, 222, 179, 0.538);
     color: azure;
 }
 .wbc2:hover{
     color: blue;
     background-color: azure;
-    border-radius: 100vw;
 }
 .bulba{
     /* background-color: forestgreen; */
@@ -707,7 +705,7 @@ a:hover{
 p a{
     text-decoration: none;
     color: black;
-    padding: 1.5vw;
+    padding: 1vw;
     border-radius: 1vw;
     background-color: rgba(240, 248, 255, 0.704);
 }
