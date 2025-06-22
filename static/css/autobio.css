@@ -1,13 +1,68 @@
-.vid{
-    max-width: 100%;
-    max-height: 100%;
-    width: 600px;
-    height: 315px;
-    float: left;
-    padding-right: 1vw;
+.sky{
+    color: rgb(98, 204, 114);
 }
-#sky{
-    background-image: url(../img/sky1.jpeg);
+
+body{
+    padding: none;
     margin: 0 auto;
-    padding: 2vw;
+    background-color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300; /* Light weight */
+}
+
+#vivid{
+    padding: 5vw;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+.purple{
+    color: rgb(227, 100, 247);
+
+}
+.wheat{
+    color: wheat;
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid plum; */
+}
+
+/* .video-wrapper iframe {
+  width: 560px;
+  max-width: 90vw;
+  height: 315px;
+  border: 1px solid wheat;
+
+} */
+/*
+animation purple and gold around iframe
+*/
+
+@keyframes borderPulse {
+  0% {
+    border-color: purple;
+    box-shadow: 0 0 10px purple;
+  }
+  50% {
+    border-color: gold;
+    box-shadow: 0 0 15px gold;
+  }
+  100% {
+    border-color: purple;
+    box-shadow: 0 0 10px purple;
+  }
+}
+
+.video-wrapper iframe {
+  width: 560px;
+  max-width: 90vw;
+  height: 315px;
+  border: 5px solid purple;
+  animation: borderPulse 3s infinite ease-in-out;
+  border-radius: 8px; /* optional */
 }
