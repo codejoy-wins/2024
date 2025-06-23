@@ -76,3 +76,6 @@ img {
 .red{
     color: crimson;
 }
+audio{
+    opacity: .5;
+}
