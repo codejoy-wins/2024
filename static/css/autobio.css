@@ -79,3 +79,6 @@ img {
 audio{
     opacity: .5;
 }
+ol{
+    text-align: left;
+}
