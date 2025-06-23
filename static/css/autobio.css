@@ -66,3 +66,13 @@ animation purple and gold around iframe
   animation: borderPulse 3s infinite ease-in-out;
   border-radius: 8px; /* optional */
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* optional: center the image */
+}
+.red{
+    color: crimson;
+}
