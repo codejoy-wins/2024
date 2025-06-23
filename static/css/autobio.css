@@ -92,3 +92,25 @@ a:hover{
 .bible{
     color: gold;
 }
+
+@keyframes fireFlicker {
+  0% {
+    text-shadow: 0 0 2px #ff9d00, 0 0 4px #ff6a00, 0 0 6px #ff3c00, 0 0 8px #ff2200;
+  }
+  50% {
+    text-shadow: 0 0 3px #ffaa00, 0 0 5px #ff7a00, 0 0 7px #ff4400, 0 0 10px #ff1100;
+  }
+  100% {
+    text-shadow: 0 0 2px #ff9d00, 0 0 4px #ff6a00, 0 0 6px #ff3c00, 0 0 8px #ff2200;
+  }
+}
+
+.fire-text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff5cc;
+  animation: fireFlicker 1.5s infinite ease-in-out;
+  text-align: center;
+  letter-spacing: 2px;
+}
