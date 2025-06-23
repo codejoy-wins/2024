@@ -82,3 +82,10 @@ audio{
 ol{
     text-align: left;
 }
+a{
+    /* text-decoration: none; */
+    color: plum;
+}
+a:hover{
+    color: blue;
+}
