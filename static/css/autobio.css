@@ -114,3 +114,9 @@ a:hover{
   text-align: center;
   letter-spacing: 2px;
 }
+.xp{
+  background-color: indigo;
+  display: inline-block;
+  border-radius: 43px;
+  
+}
