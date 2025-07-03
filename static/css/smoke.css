@@ -12,10 +12,17 @@ ul{
     /* padding: 1vw; */
     color: black;
 }
-.time p{
-    color: black;
+.time .truth{
+    background-color: rgba(0, 0, 0, 0.296);
+    color: whitesmoke;
 }
 
+.time p{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.775);
+    border-radius: 1vw;
+    padding: 1vw;
+}
 .kanye{
     color: gold;
     font-weight: bold;
@@ -1009,7 +1016,7 @@ body{
 
     }
     .time p{
-        color: pink;
+        color: black;
     }
     .whitegold h2{
         color: black;
