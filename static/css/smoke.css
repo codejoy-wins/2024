@@ -149,7 +149,10 @@ html, body{
     padding: 1vw;
 }
 #nav{
-    background-color: rgba(55, 83, 211, 0.680);
+    /* background-color: rgba(55, 83, 211, 0.680); */
+    background-color: rgba(183, 190, 225, 0.68);
+
+    color: black;
     width: 100%;
     text-align: center;
 }
@@ -163,10 +166,12 @@ html, body{
 }
 a{
     text-decoration: none;
-    color: whitesmoke;
+    /* color: whitesmoke; */
+    color: black;
+
 }
 a:hover{
-    color: wheat;
+    color: gold;
     font-weight: bold;
     cursor: cell;
 }
@@ -1000,6 +1005,8 @@ body{
     #nav{
         visibility: hidden;
         display: none;
+        background-color: rgba(183, 190, 225, 0.68);
+
     }
     .time p{
         color: pink;
@@ -1021,10 +1028,6 @@ body{
         /* background-color: rgba(128, 128, 128, 0.274); */
         /* border-radius: 2vw; */
         /* padding: .2vw; */
-    }
-    /* background-color: rgba(101, 255, 11, 0.5); lime green neon  */
-    .post3{
-        background-color:rgba(8, 12, 80, 0.856);
     }
 }
 .reflect{
