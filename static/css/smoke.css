@@ -8,6 +8,13 @@ ul{
     border-radius: 1.3vw;
     padding: .4vw;
 }
+.time{
+    /* padding: 1vw; */
+    color: black;
+}
+.time p{
+    color: black;
+}
 
 .kanye{
     color: gold;
@@ -993,6 +1000,9 @@ body{
     #nav{
         visibility: hidden;
         display: none;
+    }
+    .time p{
+        color: pink;
     }
     .whitegold h2{
         color: black;
