@@ -177,8 +177,16 @@ a{
     color: black;
 
 }
+.time a{
+    color: white;
+    background-color: rgba(255, 192, 203, 0.452);
+    border-radius: 1vw;
+}
+.time a:hover{
+    color: black;
+}
 a:hover{
-    color: gold;
+    color: wheat;
     font-weight: bold;
     cursor: cell;
 }
