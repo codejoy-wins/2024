@@ -2,7 +2,7 @@
     font-family: 'Nunito', sans-serif;
 }
 h1{
-    color: purple;
+    color: rgb(162, 208, 246);
 }
 img{
     max-width: 100%;
@@ -14,16 +14,21 @@ body{
     margin: 0 auto;
     padding: 7vw;
     padding-top: 0;
+    background-color: black;
 }
 a{
+    color: white;
     text-decoration: none;
 }
 a:hover{
-    color: white;
+    color: wheat;
     background-color: plum;
     padding: 1vw;
     border-radius: 1vw;
 }
 .vid{
     max-width: 560px;
+}
+p{
+    color: aliceblue;
 }
