@@ -183,7 +183,9 @@ a{
 }
 .time a{
     color: white;
-    background-color: rgba(255, 192, 203, 0.452);
+    /* background-color: rgba(136, 221, 255, 0.452); */
+    background-color: rgba(110, 214, 255, 0.452);
+
     border-radius: 1vw;
 }
 .time a:hover{
