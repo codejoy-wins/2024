@@ -12,6 +12,10 @@ ul{
     /* padding: 1vw; */
     color: black;
 }
+.post2 .truth{
+    color: wheat;
+    background-color: black;
+}
 .time .truth{
     background-color: rgba(0, 0, 0, 0.296);
     color: whitesmoke;
