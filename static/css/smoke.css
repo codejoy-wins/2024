@@ -181,6 +181,9 @@ a{
     color: black;
 
 }
+.post1advanced a{
+    color: purple;
+}
 .time a{
     color: white;
     /* background-color: rgba(136, 221, 255, 0.452); */
