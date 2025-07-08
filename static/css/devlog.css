@@ -17,14 +17,11 @@ body{
     background-color: black;
 }
 a{
-    color: white;
+    color: wheat;
     text-decoration: none;
 }
 a:hover{
-    color: wheat;
-    background-color: plum;
-    padding: 1vw;
-    border-radius: 1vw;
+    color: rgb(80, 249, 255);
 }
 .vid{
     max-width: 560px;
