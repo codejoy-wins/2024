@@ -3,6 +3,9 @@
     font-family: 'Nunito', sans-serif;
     font-size: 22px;
 }
+p{
+    font-weight: 700;
+}
 ul{
     background-color: rgba(0, 255, 255, 0.608);
     border-radius: 1.3vw;
