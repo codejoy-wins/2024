@@ -15,6 +15,9 @@ ul{
     /* padding: 1vw; */
     color: black;
 }
+h2, h3{
+    padding-right: 2vw;
+}
 .post2 .truth{
     color: wheat;
     background-color: black;
