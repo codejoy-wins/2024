@@ -223,172 +223,293 @@ function cyberelam(){
 
 // ********** Album Code Start **********
 
-const smartSongs = [
-    { title: "This Town Hates Me", file: "hates.mp3" },
-    { title: "Lying",               file: "Lying.mp3" },
-    { title: "California",          file: "cali.mp3" },
-    { title: "Afterli(f)e",         file: "Afterlie.mp3" },
-    { title: "Cold Diamond",        file: "diamond.mp3" },
-    { title: "Add Vice for a Friend", file: "addvicewithafriend.mp3" },
-    { title: "Adore you",           file: "AdoreYou.mp3" },
-    { title: "If Only",             file: "only.mp3" },
-    { title: "Beautiful Winter",    file: "winter.mp3" },
-    { title: "Here's to You",       file: "herestoyou.mp3" },
-    { title: "Fakebook",            file: "fakebook.mp3" },
-    { title: "Riding Too High",     file: "RidingTooHigh.mp3" },
-    { title: "King of Paradise",    file: "KingOfParadise.mp3" },
-    { title: "Fly",                 file: "Fly2.mp3" },
-    { title: "Alika and the Art of Zen Maintenance", file: "Alika.mp3" },
-    { title: "Wrong Side of the Sea", file: "WrongSideOfTheSea.mp3" },
-    { title: "Jesus Something Christ", file: "Jfc.mp3" },
-    { title: "Not Alone",           file: "notalone.mp3" },
-    { title: "Alone",               file: "Alone2.mp3" },
-    { title: "All Alone",           file: "Alonev2.mp3" },
-    { title: "Sudoku",              file: "Sudoku.mp3" },
-    { title: "Fire Girl",           file: "Fireg.mp3" },
-    { title: "Bleeding Out (extended version)", file: "bleedingoutpro.mp3" },
-    { title: "Seven Eleven 117",    file: "711117.mp3" },
-    { title: "Eternalized",         file: "Eternalized.mp3" },
-    { title: "Liquified",           file: "liquified.mp3" },
-    { title: "Roya Tha Destroya",   file: "royaThaDestroya.mp3" },
-    { title: "Lovely Rap",          file: "lovelyRap.mp3" },
-    { title: "Ruler",               file: "ruler.mp3" },
-    { title: "Dead Internet Theory", file: "deadInternet.mp3" },
-    { title: "King of Greed",       file: "GreedyKing.mp3" },
-    { title: "God's Street Park",   file: "GodStreetPark.mp3" },
-    { title: "Cold Soul",           file: "coldSoul.mp3" }
-  ];
+let songz = [
+    `hates`,
+    `Lying`,
+    `cali`,
+    `Afterlie`,
+    `diamond`,
+    `addvicewithafriend`,
+    `AdoreYou`,
+    `only`,
+    `winter`,
+    `herestoyou`,
+    `fakebook`,
+    `RidingTooHigh`,
+    `KingOfParadise`,
+    `Fly2`,
+    `Alika`,
+    `WrongSideOfTheSea`,
+    `Jfc`,
+    `notalone`,
+    `Alone2`,
+    `Alonev2`,
+    `Sudoku`,
+    `Fireg`,
+    `bleedingoutpro`,
+    `SuperFireMedley`,
+    `Madly`,
+    `Bleeding`,
+    `711117`,
+    `Eternalized`,
+    `liquified`,
+    `royaThaDestroya`,
+    `lovelyRap`,
+    `ruler`,
+    `deadInternet`,
+    `GreedyKing`,
+    `GodStreetPark`,
+    `coldSoul`,
+]
 
-  // 2) runtime state
-  let playlist = [];
-  let history  = [];
-  let current  = null;
+let songs = [
+       `This Town Hates Me`,
+       `Lying`,
+       `California`,
+       `Afterli(f)e`,
+       `Cold Diamond`,
+       `Add Vice for a Friend`,
+       `Adore You`,
+       `If Only`,
+       `Beautiful Winter`,
+       `Here's to You`,
+       `Fakebook`,
+       `Riding Too High`,
+       `King of Paradise`,
+       `Fly`,
+       `Alika and the Art of Zen Maintenance`,
+       `Wrong Side of the Sea`,
+       `JFC`,
+       `Not Alone`,
+       `Alone`,
+       `All Alone`,
+       `Sudoku`,
+       `Fire Girl`,
+       `Bleeding Out (pro version)`,
+       `Super Fire Medley`,
+       `Madly`,
+       `Bleeding Out`,
+       `Seven Eleven One One Seven`,
+       `Eternalized`,
+       `liquified`,
+       `Roya Tha Destroya`,
+       `Lovely Rap`,
+       `Ruler`,
+       `Dead Internet Theory`,
+       `King of Greed`,
+       `God's Street Park`,
+       `Cold Soul`,
+]
 
-  // 3) DOM refs
-  const player   = document.getElementById("player");
-  const descEl   = document.getElementById("descsong2");
-  const playIcon = document.querySelector("#treeternal img");
-  const mainImg  = document.getElementById("main-img");
-  const bottomBtns = document.querySelectorAll(".bottom-btn");
+let smartSongs = [
+    {
+        title:`This Town Hates Me`,
+        file:`hates.mp3`
+    },
+    {
+        title:`Lying`,
+        file:`Lying.mp3`
+    },
+    {
+        title:`California`,
+        file:`cali.mp3`
+    },
+    {
+        title:`Afterli(f)e`,
+        file:`Afterli.mp3`
+    },
+    {
+        title:`Cold Diamond`,
+        file:`diamond.mp3`
+    },
+    {
+        title:`Add Vice for a Friend`,
+        file:`addvicewithafriend.mp3`
+    },
+    {
+        title:`Adore you`,
+        file:`AdoreYou.mp3`
+    },
+    {
+        title:`If Only`,
+        file:`only.mp3`
+    },
+    {
+        title:`Beautiful Winter`,
+        file:`winter.mp3`
+    },
+    {
+        title:`Here's to You`,
+        file:`herestoyou.mp3`
+    },
+    {
+        title:`Fakebook`,
+        file:`fakebook.mp3`
+    },
+    {
+        title:`Riding Too High`,
+        file:`RidingTooHigh.mp3`
+    },
+    {
+        title:`King of Paradise`,
+        file:`KingOfParadise.mp3`
+    },
+    {
+        title:`Fly`,
+        file:`Fly2.mp3`
+    },
+    {
+        title:`Alika and the Art of Zen Maintenance`,
+        file:`Alika.mp3`
+    },
+    {
+        title:`Wrong Side of the Sea`,
+        file:`WrongSideOfTheSea.mp3`
+    },
+    {
+        title:`Jesus Something Christ`,
+        file:`Jfc.mp3`
+    },
+    {
+        title:`Not Alone`,
+        file:`notalone.mp3`
+    },
+    {
+        title:`Alone`,
+        file:`Alone2.mp3`
+    },
+    {
+        title:`All Alone`,
+        file:`Alonev2.mp3`
+    },
+    {
+        title:`Sudoku`,
+        file:`Sudoku`
+    },
+    {
+        title:`Fire Girl`,
+        file:`Fireg.mp3`
+    },
+    {
+        title:`Bleeding Out (extended version)`,
+        file:`bleedingoutpro.mp3`
+    },
+    {
+        title:`Seven Eleven 117`,
+        file:`711117.mp3`
+    },
+    {
+        title:`Eternalized`,
+        file:`Eternalized.mp3`
+    },
+    {
+        title:`Liquified`,
+        file:`liquified.mp3`
+    },
+    {
+        title:`Roya Tha Destroya`,
+        file:`royaThaDestroya.mp3`
+    },
+    {
+        title:`Lovely Rap`,
+        file:`lovelyRap.mp3`
+    },
+    {
+        title:`Ruler`,
+        file:`ruler.mp3`
+    },
+    {
+        title:`Dead Internet Theory`,
+        file:`deadInternet.mp3`,
+    },
+    {
+        title:`King of Greed`,
+        file:`GreedyKing.mp3`
+    },
+    {
+        title:`God's Street Park`,
+        file:`GodStreetPark.mp3`
+    },
+    {
+        title:`Cold Soul`,
+        file:`coldSoul.mp3`
+    },
+]
 
-  // 4) Fisher–Yates shuffle
-  function shuffle(arr) {
-    const a = arr.slice();
-    for (let i = a.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
+let playlist = [];      // current shuffled order
+let history  = [];      // what we’ve already played
+let current  = null;    // the song-object that’s playing now
+
+// Fisher–Yates shuffle with ChatGPT
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
   }
-
-  // 5) load `current` into the player + update title
-  function loadCurrent() {
-    player.src = `static/audio/${current.file}`;
-    descEl.textContent = current.title;
-    // reset the icon to “tree”
-    playIcon.src = "static/img/sensaplay.jpeg";
-  }
-
-  // helper to dump state
-function dumpState(ctx) {
-  console.group(`––– ${ctx} –––`);
-  console.log("Full album:", smartSongs.map(s => s.title));
-  console.log("Shuffled playlist:", playlist.map(s => s.title));
-  console.log("History:", history.map(s => s.title));
-  console.groupEnd();
+  return a;
+}
+// initialize on page-load or first play
+function startSession() {
+  playlist = shuffle(songs);
+  history  = [];
+  playNext();
 }
 
-  // 6) initialize on page-load (no autoplay)
-  function startSession() {
-    playlist = shuffle(smartSongs);
-    history  = [];
-    current  = playlist.shift();
-    loadCurrent();
-    dumpState("startSession");  // optional call for help
-  }
 
-  // 7) next track (reshuffle if needed)
-  function playNext() {
-    if (current) history.push(current);
-    if (!playlist.length) {
-      playlist = shuffle(smartSongs);
-      history  = [];
-      console.log("➡️ playlist exhausted, reshuffling"); // optional console log
-    }
-    current = playlist.shift();
-    loadCurrent();
-    player.play();
-    dumpState("playNext"); // optional
-  }
-
-  // 8) previous (or restart if none)
-  function playPrev() {
-    if (history.length) {
-      playlist.unshift(current);
-      current = history.pop();
-      loadCurrent();
-    }
-    player.play();
-    dumpState("playPrev"); // optional
-  }
-
-  // 9) rewind + double click logic
-
-// restart current track
-function rewindSong() {
-  player.currentTime = 0;
-  player.play();
-  console.log("⏮️ single-click: restart current");
-  dumpState("rewindSong");
+function randosong(){
+    let ra = Math.floor(Math.random()*songz.length);
+    let x = songz[ra];
+    let y = songs[ra];
+    console.log(`xxx is ${x}`);
+    
+    document.getElementById("introsong").innerHTML=`
+    <audio id="player" onended="randosong()" src="static/audio/${x}.mp3"></audio>
+    `
+    document.getElementById("descsong2").innerHTML=`
+    <p>${y}</p>
+    `
+    document.getElementById("treeternal").innerHTML=`
+        <img class="picalu" src="static/img/sensaplay.jpeg" alt="treeternal">
+    `
 }
 
 
-  let _clickTimer = null;
-function waterHandler() {
-  if (_clickTimer) {
-    // second click within 300ms → cancel restart, go to prev
-    clearTimeout(_clickTimer);
-    _clickTimer = null;
-    playPrev();
-  } else {
-    // first click → schedule a restart after 300ms
-    _clickTimer = setTimeout(() => {
-      rewindSong();
-      console.log("⏮️ single-click: restart current");
-      _clickTimer = null;
-      dumpState("rewindSong");
-    }, 300);
-  }
+
+randosong();
+
+function freezefire(){
+    let targ = document.getElementById("player");
+    console.log("She can freeze fire from the Son");
+    console.log(`targ.paused is ${targ.paused}`);
+    if(targ.paused == true){
+        console.log("trying to play");
+        targ.play();
+        document.getElementById("treeternal").innerHTML=`
+        <img class="picalu" src="static/img/warright.jpeg" alt="warright">
+        `
+    }
+    else if(targ.paused == false){
+        console.log("trying to pause");
+        targ.pause();
+        document.getElementById("treeternal").innerHTML=`
+        <img class="picalu" src="static/img/sensaplay.jpeg" alt="treeternal">
+        `
+    }
+    console.log(`targ.paused is now ${targ.paused}`);
+
 }
-
-
-  // 10) toggle play/pause
-  function togglePlay() {
-    if (player.paused) player.play();
-    else               player.pause();
-  }
-
-  // 11) expose globals so your inline `onclick="…"` still works
-  window.water      = waterHandler;
-  window.freezefire = togglePlay;
-  window.air        = playNext;
-  
-
-  // 12) sync tree⇄fire on native events
-  player.addEventListener("play",  () => playIcon.src = "static/img/warright.jpeg");
-  player.addEventListener("pause", () => playIcon.src = "static/img/sensaplay.jpeg");
-  player.addEventListener("ended", playNext);
-
-  // 13) bottom-button behavior
-  bottomBtns.forEach(btn => {
-    btn.addEventListener("click", () => {
-      mainImg.src = `static/img/${btn.dataset.image}`;
-      window.scrollTo({ top: 0, behavior: "smooth" });
-      player.play();
-    });
-  });
-
-  // 14) finally, kick it off
-  window.addEventListener("DOMContentLoaded", startSession);
+function water(){
+    let targy = document.getElementById("player");
+    console.log("water rewind");
+    // document.getElementById("player").rewind();
+    console.log(`targy time is ${targy.currentTime}`);
+    targy.currentTime = 0;
+}
+function air(){
+    console.log("air fast forward");
+    randosong();
+    freezefire();
+}
 
 // ********** Album Code End **********
