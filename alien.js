@@ -831,6 +831,12 @@ let manobj = [
         "fullsong": "Space Oddity",
         "picture": "",
     },
+    {
+        "song": "diey",
+        "artist": "Tsunami",
+        "fullsong": "Die Young",
+        "picture": "",
+    },
 ];
 
 let womanobj = [
