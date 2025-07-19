@@ -107,7 +107,6 @@ deviceType();
 
 const helloWorld = () => {
     if(deviceType()=="desktop"){
-        console.log("I see you're on a desktop");
         document.getElementById("intro").innerHTML=`
             <p>
             <span id="goldfirst">W</span>elcome to Cloudland, I see you're on your computer.
@@ -122,7 +121,6 @@ const helloWorld = () => {
         `
     }
     if(deviceType()=="tablet"){
-        console.log("I see you're on a tablet");
         document.getElementById("intro").innerHTML=`
             <p>
             <span id="goldfirst">W</span>elcome to Cloudland, I see you're on instagram.
@@ -133,7 +131,6 @@ const helloWorld = () => {
         `
     }
     if(deviceType()=="mobile"){
-        console.log("I see you're on your phone");
         document.getElementById("intro").innerHTML=`
             <p>
             <span id="goldfirst">W</span>elcome to Cloudland, I see you're on your "cell" phone.
@@ -191,7 +188,7 @@ const nextTime = () =>{
 }
 nextTime();
 // ********** Oracle Code End **********
-
+// let tokens = 0;
 function craig(){
     console.log("change for the good");
     let targetofteroh = document.getElementById("teroh");
@@ -203,6 +200,8 @@ function craig(){
     <div class="parallax5117"></div>
     `;
     freezefire();
+    // tokens >= 1 ?     window.location.href = "https://youtu.be/2vSqYtBBLkI?si=SiOHSWyLQdlA7VG_": console.log('token low');
+    // tokens++;
 }
 function cyberelam(){
     console.log("change for the good");
@@ -290,13 +289,13 @@ const smartSongs = [
   }
 
   // helper to dump state
-function dumpState(ctx) {
-  console.group(`––– ${ctx} –––`);
-  console.log("Full album:", smartSongs.map(s => s.title));
-  console.log("Shuffled playlist:", playlist.map(s => s.title));
-  console.log("History:", history.map(s => s.title));
-  console.groupEnd();
-}
+// function dumpState(ctx) {
+//   console.group(`––– ${ctx} –––`);
+//   console.log("Full album:", smartSongs.map(s => s.title));
+//   console.log("Shuffled playlist:", playlist.map(s => s.title));
+//   console.log("History:", history.map(s => s.title));
+//   console.groupEnd();
+// }
 
   // 6) initialize on page-load (no autoplay)
   function startSession() {
@@ -304,7 +303,7 @@ function dumpState(ctx) {
     history  = [];
     current  = playlist.shift();
     loadCurrent();
-    dumpState("startSession");  // optional call for help
+    // dumpState("startSession");  // optional call for help
   }
 
   // 7) next track (reshuffle if needed)
@@ -313,12 +312,12 @@ function dumpState(ctx) {
     if (!playlist.length) {
       playlist = shuffle(smartSongs);
       history  = [];
-      console.log("➡️ playlist exhausted, reshuffling"); // optional console log
+      // console.log("➡️ playlist exhausted, reshuffling"); // optional console log
     }
     current = playlist.shift();
     loadCurrent();
     player.play();
-    dumpState("playNext"); // optional
+    // dumpState("playNext"); // optional
   }
 
   // 8) previous (or restart if none)
@@ -329,7 +328,7 @@ function dumpState(ctx) {
       loadCurrent();
     }
     player.play();
-    dumpState("playPrev"); // optional
+    // dumpState("playPrev"); // optional
   }
 
   // 9) rewind + double click logic
@@ -339,7 +338,7 @@ function rewindSong() {
   player.currentTime = 0;
   player.play();
   console.log("⏮️ single-click: restart current");
-  dumpState("rewindSong");
+  // dumpState("rewindSong");
 }
 
 
@@ -356,7 +355,7 @@ function waterHandler() {
       rewindSong();
       console.log("⏮️ single-click: restart current");
       _clickTimer = null;
-      dumpState("rewindSong");
+      // dumpState("rewindSong");
     }, 300);
   }
 }

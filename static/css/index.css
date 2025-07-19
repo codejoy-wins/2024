@@ -1310,8 +1310,8 @@ h4{
 .lapis{
     max-width: 100%;
     max-height: 400px;
-    opacity: 1;
-    animation: xray 11s infinite;
+    /* opacity: 1; */
+    /* animation: xray 11s infinite; */
     border-bottom: 1ch solid black;
     border-top: 1ch solid black;
 
@@ -1870,7 +1870,7 @@ footer{
     display:inline-block;
     /* border: .3vw solid gold; */
     /* background-image: url(../img/GoldElam.jpg); */
-    background-image: url(../img/xray.png);
+    /* background-image: url(../img/xray.png); */
 
     background-position: center;
     background-size: cover;
