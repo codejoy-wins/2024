@@ -969,6 +969,13 @@ body{
     padding-right: 1vw;
     max-height: 600px;
 }
+.mypicfloatsmall{
+    float: left;
+    max-width: 100%;
+    padding-right: 1vw;
+    max-height: 600px;
+    opacity: .6;
+}
 .picfloatmedium{
     float: left;
     max-width: 100%;
