@@ -1103,3 +1103,17 @@ img{
 .royal{
     padding-top: 222px;
 }
+.joker{
+    padding-left: 13vw;
+    padding-bottom: 13vw;
+    color: red;
+
+}
+.joker p{
+    background-color: rgba(245, 245, 245, 0.714);
+    border-radius: 2vw;
+    padding: 1vw;
+}
+.red{
+    color: blue;
+}
