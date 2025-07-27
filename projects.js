@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
          imageUrl: "static/img/elamforever.png",
          linkURL:"index.html",
          videoembed:"",
-         date:"2020-current",
+         date:"2020+",
 
          },
 
@@ -23,14 +23,14 @@ document.addEventListener('DOMContentLoaded', function() {
          imageUrl: "static/img/mewthree.png",
          linkURL:"pokedex.html",
          videoembed:"",
-         date:"2024",
+         date:"2024+",
          },
          { title: "Blog",
          description: "A dynamically styled blog that automatically displays all my blog posts from that month", 
          imageUrl: "static/img/blogx.png",
          linkURL:"blog.html",
          videoembed:"",
-         date:"2020-2024",
+         date:"2020+",
          },
          { title: "DJ Aliens",
          description: "An iPod type App that simulates 2 Alien DJ's for you, a male and a female with different tastes.  I recently updated the girl dj image but I'm still not sold on it, it is different from the picture here.  I could make another version of this but it is tricky.  I think the next full version would have to allow user uploads of songs and sort them, but people don't really have music files anymore as much as stream them on spotify",
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
          linkURL:"alien.html",
          videoembed:"",
-         date:"2021-2023",
+         date:"2021+",
 
 
          },
@@ -105,12 +105,13 @@ document.addEventListener('DOMContentLoaded', function() {
         videoembed:"https://www.youtube.com/embed/IJySvOjJwqI?si=67r2SfNbG8auAmmF",
         date:"2024",
      },
+
      { title: "Unreal Tournament Shock Rifle", 
         description: "I used Unreal Engine 5 to reimagine the shock rifle from Unreal Tournament 2004.  I recently created a main menu and it took me all night to figure out why it was breaking my ai in the game.  Turns out I needed to change the A.I. nav mesh in my level from static to dynamic so that it reloads itself when I come from the main menu into the first level.", 
         imageUrl: "static/img/madjoy.png",
         linkURL: "",
         videoembed:"https://www.youtube.com/embed/PLXK9t4X4Xg?si=bSVqwNMYdjr3FxUu",
-        date:"2024",
+        date:"2024+",
      },
      { title: "Next.JS Review App", 
         description: "After dabbling with Next.js documentation and tutorials I built this app with the help of ChatGPT.  I have much bigger plans with this project and it is ongoing.", 
