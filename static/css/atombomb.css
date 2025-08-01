@@ -18,9 +18,11 @@ ul{
     border-radius: 1vw;
     padding: 1vw;
 }
-
+.blue{
+    color: rgba(0, 0, 255, 0.574);
+}
 .king{
-    color: rgba(255, 136, 0, 0.9);
+    color: rgb(255, 164, 60);
     animation: elam infinite 5s;
 }
 .kanye{
