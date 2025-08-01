@@ -8,7 +8,21 @@ ul{
     border-radius: 1.3vw;
     padding: .4vw;
 }
+.god{
+    padding: 3vw;
+    padding-bottom: 8vw;
+}
+.god p{
+    background-color: rgba(18, 78, 133, 0.295);
+    color: azure;
+    border-radius: 1vw;
+    padding: 1vw;
+}
 
+.king{
+    color: rgba(255, 136, 0, 0.9);
+    animation: elam infinite 5s;
+}
 .kanye{
     color: gold;
     font-weight: bold;
