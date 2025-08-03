@@ -107,10 +107,11 @@ document.addEventListener('DOMContentLoaded', function() {
      },
 
      { title: "Unreal Tournament Shock Rifle", 
-        description: "I used Unreal Engine 5 to reimagine the shock rifle from Unreal Tournament 2004.  I recently created a main menu and it took me all night to figure out why it was breaking my ai in the game.  Turns out I needed to change the A.I. nav mesh in my level from static to dynamic so that it reloads itself when I come from the main menu into the first level.", 
+        description: "I am using Unreal Engine 5.5 to reimagine the shock rifle from Unreal Tournament 2004.  I just added a lightmass effect to the shock combo explosion and I'm having so much fun with it!", 
         imageUrl: "static/img/madjoy.png",
         linkURL: "",
-        videoembed:"https://www.youtube.com/embed/PLXK9t4X4Xg?si=bSVqwNMYdjr3FxUu",
+        videoembed:"https://www.youtube.com/embed/jYbGBPDOKuU?si=Uv7vV7btSKJwlK7S",
+        // videoembed:"https://www.youtube.com/embed/PLXK9t4X4Xg?si=bSVqwNMYdjr3FxUu",
         date:"2024+",
      },
      { title: "Next.JS Review App", 
@@ -118,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
         imageUrl: "static/img/auri.webp",
         linkURL: "https://reviewandme.netlify.app",
         videoembed:"",
-        date:"2024",
+        date:"2024+",
      },
         // I should also add video demos for each project, as well as a link
         // videos/ reviews / music  / homepage
