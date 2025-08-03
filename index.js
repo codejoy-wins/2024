@@ -189,7 +189,11 @@ const nextTime = () =>{
 nextTime();
 // ********** Oracle Code End **********
 // let tokens = 0;
+let token = 0;
 function craig(){
+    if(token>0){
+      window.open('https://youtu.be/2vSqYtBBLkI?si=6-opTOogbijZoPhf', '_blank');
+    }
     console.log("change for the good");
     let targetofteroh = document.getElementById("teroh");
     document.getElementById("teroh").classList.remove("parallaxnew");
@@ -200,6 +204,7 @@ function craig(){
     <div class="parallax5117"></div>
     `;
     freezefire();
+    token++;
     // tokens >= 1 ?     window.location.href = "https://youtu.be/2vSqYtBBLkI?si=SiOHSWyLQdlA7VG_": console.log('token low');
     // tokens++;
 }
@@ -391,3 +396,4 @@ function waterHandler() {
   window.addEventListener("DOMContentLoaded", startSession);
 
 // ********** Album Code End **********
+
