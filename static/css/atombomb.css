@@ -137,6 +137,10 @@ html, body{
 #heading{
     text-align: center;
 }
+audio{
+    opacity: .2;
+}
+
 #collage{
     height: auto;
     width: 100%;
@@ -880,7 +884,11 @@ h4{
     display: none;
 }
 body{
-    background-image: url(/static/img/atombomb.jpg);
+    /* background-image: url(/static/img/atombomb.jpg); */
+    /* background-image: url(/static/img/reignbow.png); */
+    background-image: url(/static/img/bh.jpg);
+
+
     background-size: contain;
 }
 .pic100{
