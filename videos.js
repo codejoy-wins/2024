@@ -479,6 +479,15 @@ function cod(){
     `
     document.getElementById("article").innerHTML=`
 
+    
+
+    <div class="video2">
+    <h1>A Dark Diamond Death</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Qw9HJ47aQ5c?si=DO9j1JuqQ5SaboJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+
     <div class="video2">
     <h1>Speed Nuke</h1>
     <div class="vid2">
