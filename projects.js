@@ -110,11 +110,10 @@ document.addEventListener('DOMContentLoaded', function() {
         description: "I am using Unreal Engine 5.5 to reimagine the shock rifle from Unreal Tournament 2004.  I just added a lightmass effect to the shock combo explosion and I'm having so much fun with it!", 
         imageUrl: "static/img/madjoy.png",
         linkURL: "",
-        videoembed:"https://www.youtube.com/embed/cUHV3FyBfHk?si=t7I-xGyfaLiL0ixa",
+        videoembed:"https://www.youtube.com/embed/G1wV5d4H7eI?si=n4Wb4LUkVUWsjrwq",
         // videoembed:"https://www.youtube.com/embed/PLXK9t4X4Xg?si=bSVqwNMYdjr3FxUu",
         date:"2024+",
      },
-     
      { title: "Next.JS Review App", 
         description: "After dabbling with Next.js documentation and tutorials I built this app with the help of ChatGPT.  I have much bigger plans with this project and it is ongoing.", 
         imageUrl: "static/img/auri.webp",
