@@ -591,6 +591,10 @@ ol{
     padding: 1vw;
     border-radius: 1vw;
 }
+audio{
+    opacity: .4;
+    background-color: blue;
+}
 .cloud p{
     background-color: rgba(47, 9, 47, 0.921);
     /* color: #c90d00; */
