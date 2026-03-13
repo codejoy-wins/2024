@@ -267,6 +267,14 @@ h1 a{
     font-size: larger;
     padding-bottom: 7vw;
 }
+.postXadvanced{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(55, 84, 211, 0.335);
+    color: black;
+    font-size: larger;
+    padding-bottom: 7vw;
+}
 .post2{
     border-radius: 1ch;
     padding: 3vw;
@@ -576,6 +584,11 @@ ol{
 .vidsuper{
     max-width: 100%;
 }
+.postx{
+    padding-top: 300px;
+    margin-top: 300px;
+    background-color: aliceblue;
+}
 .post p{
     background-color: rgba(250, 189, 250, 0.921);
     padding: 1vw;
@@ -606,6 +619,11 @@ audio{
     border-radius: 1vw;
 }
 .post1advanced p{
+    background-color: rgba(250, 189, 250, 0.851);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.postXadvanced p{
     background-color: rgba(250, 189, 250, 0.851);
     padding: 1vw;
     border-radius: 1vw;
