@@ -23,6 +23,17 @@ ul{
 .chess{
     max-width: 100%;
 }
+.chess2{
+    max-width: 100%;
+    padding: 1vw;
+    background-color: rgba(164, 164, 241, 0.387);
+}
+.post26 p{
+    background-color: black;
+    border-radius: 1vw;
+    padding: 1vw;
+
+}
 @keyframes elam{
     20%{
         color: wheat;
@@ -374,6 +385,13 @@ h1 a{
     color: wheat;
     font-size: larger;
     /* background-color: rgba(101, 255, 11, 0.5); */
+
+}
+.post26{
+    color: wheat;
+    font-size: larger;
+    padding: 3vw;
+    border-radius: 1ch;
 
 }
 .profound{
