@@ -170,9 +170,11 @@ html, body{
 }
 #nav{
     /* background-color: rgba(55, 83, 211, 0.680); */
-    background-color: rgba(183, 190, 225, 0.68);
+    /* background-color: rgba(183, 190, 225, 0.68); */
+    background-color: rgba(211, 173, 38, 0.77);
 
-    color: black;
+
+    color: forestgreen;
     width: 100%;
     text-align: center;
 }
@@ -187,7 +189,9 @@ html, body{
 a{
     text-decoration: none;
     /* color: whitesmoke; */
-    color: black;
+    /* color: black; */
+    color: rgb(0, 40, 0);
+
 
 }
 .post1advanced a{
