@@ -6,6 +6,11 @@
 p{
     font-weight: 700;
 }
+.postblack p{
+    padding: 1vw;
+    background-color: rgba(240, 248, 255, 0.551);
+    border-radius: 1vw;
+}
 ul{
     background-color: rgba(0, 255, 255, 0.608);
     border-radius: 1.3vw;
